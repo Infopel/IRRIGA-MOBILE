@@ -1,0 +1,1 @@
+export { DashboardSearchListContainer } from './dashboard-search-list.container'

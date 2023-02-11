@@ -1,0 +1,3838 @@
+{
+  "form": [
+    {
+      "id": "ecce9f56-ff36-4f6a-a9fa-717b17339a32",
+      "name": "Cadastro de Regadio",
+      "fieldset": [
+        {
+          "id": 714,
+          "label": "Tipo de Sistema  de irrigação",
+          "dependOn": "713/606",
+          "verifyOn": 11771439,
+          "type": "chip",
+          "labelField": 0,
+          "filterId": 0,
+          "filterWithDropdown": null,
+          "placeholder": "Selecionar o Tipo",
+          "value": null,
+          "options": [
+            {
+              "id": 136,
+              "name": "Maneio do Lençol freático"
+            },
+            {
+              "id": 137,
+              "name": "Gota a Gota"
+            }
+          ],
+          "validators": {
+            "required": true,
+            "min": 0,
+            "max": 0,
+            "contentType": null
+          }
+        },
+        {
+          "id": 20,
+          "label": "Dados do Regadio",
+          "dependOn": null,
+          "description": "Dados do Regadio",
+          "controls": [
+            {
+              "id": 777,
+              "label": "Ano de Construção/Reabilitação",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Ano",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 778,
+              "label": "Ano de Conclusão",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Ano",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 779,
+              "label": "Número de vezes reabilitado",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Ano",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 780,
+              "label": "Ano da Ultima Reabilitação",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Ano",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 781,
+              "label": "Fonte de financiamento",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Ano",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 782,
+              "label": "Codigo INIR",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Ano",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 121,
+              "label": "Nome do regadio",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "nome regadio",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 123,
+              "label": "Área pontencial",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Area",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 708,
+              "label": "Área infraestruturada",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Area",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 124,
+              "label": "Área explorada",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Area",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 737,
+              "label": "Tipo de de Solo Predominante",
+              "dependOn": null,
+              "verifyOn": 33605053,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 614,
+                  "name": "Argiloso"
+                },
+                {
+                  "id": 615,
+                  "name": "Franco-argiloso"
+                },
+                {
+                  "id": 616,
+                  "name": "Limoso"
+                },
+                {
+                  "id": 617,
+                  "name": "Franco-arenoso"
+                },
+                {
+                  "id": 618,
+                  "name": "Arenoso"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 776,
+              "label": "Estado de conservação do reagadio",
+              "dependOn": null,
+              "verifyOn": 34617473,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 696,
+                  "name": "Bom"
+                },
+                {
+                  "id": 697,
+                  "name": "Razoável"
+                },
+                {
+                  "id": 698,
+                  "name": "Mau"
+                },
+                {
+                  "id": 699,
+                  "name": "Inoperacional"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 125,
+              "label": "Cultura Principal",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 215,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": "431a70ee-4241-49a3-9059-e528ddbd186b",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 653,
+              "label": "Culturas Secundárias",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 215,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": "d6189313-f7ae-4f1f-936f-5f0e4ac9a434",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 128,
+              "label": "Associação",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "2829b315-758b-4745-b1c1-1bfffb9c79bb",
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 189,
+              "label": "Província",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar Província",
+              "value": null,
+              "options": [
+                {
+                  "id": 1,
+                  "name": "Niassa"
+                },
+                {
+                  "id": 2,
+                  "name": "Cabo-Delgado"
+                },
+                {
+                  "id": 3,
+                  "name": "Nampula"
+                },
+                {
+                  "id": 4,
+                  "name": "Zambézia"
+                },
+                {
+                  "id": 5,
+                  "name": "Tete"
+                },
+                {
+                  "id": 6,
+                  "name": "Manica"
+                },
+                {
+                  "id": 7,
+                  "name": "Sofala"
+                },
+                {
+                  "id": 8,
+                  "name": "Inhambane"
+                },
+                {
+                  "id": 9,
+                  "name": "Gaza"
+                },
+                {
+                  "id": 10,
+                  "name": "Maputo-Provincia"
+                },
+                {
+                  "id": 11,
+                  "name": "Maputo-Cidade"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 190,
+              "label": "Distrito",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 189,
+              "filterWithDropdown": "DISTRICT_BY_PROVINCE",
+              "placeholder": "Selecionar Distrito",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 191,
+              "label": "Posto administrativo",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Posto administrativo",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 163,
+              "label": "Existe uma empresa a funcionar na associação?",
+              "dependOn": null,
+              "verifyOn": 54025866,
+              "type": "radio",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Empresa",
+              "value": null,
+              "options": [
+                {
+                  "id": 113,
+                  "name": "Sim"
+                },
+                {
+                  "id": 114,
+                  "name": "Não"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 131,
+              "label": "Empresa",
+              "dependOn": "163/113",
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "d4ae03c2-6745-4761-a44a-24603c4bc065",
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 277,
+              "label": "Empresa",
+              "dependOn": "163/133",
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "d4ae03c2-6745-4761-a44a-24603c4bc065",
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 127,
+          "label": "Fonte e disponibilidade de água",
+          "dependOn": null,
+          "description": "Fonte e disponibilidade de água",
+          "controls": [
+            {
+              "id": 749,
+              "label": "Fonte e disponibilidade de água",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "dbc541f5-2461-4cb4-a460-2f1ef24ac8bd",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 759,
+              "label": "Rega, Drenagem e Infraestrutura de Rega",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "1ec5660b-0547-4681-9290-ce8e4d78d4d1",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 738,
+              "label": "Gestão de Regadio",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 215,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": "ca42c1b5-d319-4929-9631-f92eda27d2d4",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "label": "Geolocalização",
+          "dependOn": null,
+          "description": "Geolocalização",
+          "controls": [
+            {
+              "id": 192,
+              "label": "Localidade",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Localidade",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 193,
+              "label": "Comunidade",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Comunidade",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 194,
+              "label": "Colecta de Coordenada",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "location",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Coordenadas geográficas",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "label": "Projecção do Regadio",
+          "dependOn": null,
+          "description": "Projecção do Regadio",
+          "controls": [
+            {
+              "id": 636,
+              "label": "Fase da Projecção",
+              "dependOn": null,
+              "verifyOn": 61715494,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecione",
+              "value": null,
+              "options": [
+                {
+                  "id": 486,
+                  "name": "Em projecção"
+                },
+                {
+                  "id": 487,
+                  "name": "Por projectar"
+                },
+                {
+                  "id": 488,
+                  "name": "Projectada"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 639,
+              "label": "Projecção",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "dacf8c53-600e-42dc-a1f7-901bf5629ba3",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "label": "Construção do Regadio",
+          "dependOn": null,
+          "description": "Construcção do Regadio",
+          "controls": [
+            {
+              "id": 644,
+              "label": "Fase de Construção",
+              "dependOn": null,
+              "verifyOn": 42363442,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecione",
+              "value": null,
+              "options": [
+                {
+                  "id": 489,
+                  "name": "Em contrução"
+                },
+                {
+                  "id": 490,
+                  "name": "Por construir"
+                },
+                {
+                  "id": 491,
+                  "name": "Construída"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 716,
+              "label": "Contrução",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "b3348a2e-69b5-44d8-abb7-7edeb00f29ec",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 110,
+          "label": "Fiscalicação do Regadio",
+          "dependOn": null,
+          "description": "Fiscalicação do Regadio",
+          "controls": [
+            {
+              "id": 647,
+              "label": "Fase da Fiscalização",
+              "dependOn": null,
+              "verifyOn": 53876786,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecione",
+              "value": null,
+              "options": [
+                {
+                  "id": 492,
+                  "name": "Em fiscalização"
+                },
+                {
+                  "id": 493,
+                  "name": "Por fiscalizar"
+                },
+                {
+                  "id": 494,
+                  "name": "Fiscalizado"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 649,
+              "label": "Fiscalização",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "45333a4f-e90c-4ae1-b3f2-14a34f9063f3",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "label": "Provedores de serviços",
+          "dependOn": null,
+          "description": "Provedores de serviços",
+          "controls": [
+            {
+              "id": 214,
+              "label": "Provedor de serviços",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "b168da8c-09a0-4ea8-9fea-f06a116afe40",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 684,
+              "label": "Culturas Secundárias",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 215,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": "d6189313-f7ae-4f1f-936f-5f0e4ac9a434",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "label": "Carregamento de fotos",
+          "dependOn": null,
+          "description": "Carregamento de fotos",
+          "controls": [
+            {
+              "id": 195,
+              "label": "Fotos",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 2,
+                "contentType": "image/*"
+              }
+            },
+            {
+              "id": 196,
+              "label": "Descrição",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Descrição",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "textarea"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "431a70ee-4241-49a3-9059-e528ddbd186b",
+      "name": "Culturas produzidas",
+      "fieldset": [
+        {
+          "id": 51,
+          "label": "Culturas produzidas",
+          "dependOn": null,
+          "description": "Culturas produzidas",
+          "controls": [
+            {
+              "id": 215,
+              "label": "Cultura Principal",
+              "dependOn": null,
+              "verifyOn": 32134454,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Culturas",
+              "value": null,
+              "options": [
+                {
+                  "id": 1,
+                  "name": "Repolho"
+                },
+                {
+                  "id": 2,
+                  "name": "Cebola"
+                },
+                {
+                  "id": 20,
+                  "name": "Arroz"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 216,
+              "label": "Outro",
+              "dependOn": "215/19",
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Cultura",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 621,
+              "label": "Área da  cultura",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Área agregada por cultura",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 693,
+              "label": "Foto da  Cultura Principal",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 2,
+                "contentType": "image/*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2829b315-758b-4745-b1c1-1bfffb9c79bb",
+      "name": "Associações",
+      "fieldset": [
+        {
+          "id": 43,
+          "label": "Associações",
+          "dependOn": null,
+          "description": "Associações",
+          "controls": [
+            {
+              "id": 217,
+              "label": "Nome Associação",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nome",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 218,
+              "label": "Beneficiários Homens",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 219,
+              "label": "Beneficiários Mulheres",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d4ae03c2-6745-4761-a44a-24603c4bc065",
+      "name": "Empresa",
+      "fieldset": [
+        {
+          "id": 44,
+          "label": "Empresa",
+          "dependOn": null,
+          "description": "Empresa",
+          "controls": [
+            {
+              "id": 203,
+              "label": "Nome da Empresa",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Empresa",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 504,
+              "label": "Tipo de Prestação de Serviço",
+              "dependOn": null,
+              "verifyOn": 12996257,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar",
+              "value": null,
+              "options": [
+                {
+                  "id": 373,
+                  "name": "Contratada pelo INIR"
+                },
+                {
+                  "id": 374,
+                  "name": "Provedora de Serviços a Comunidade"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 132,
+              "label": "Trabalhadores Homens",
+              "dependOn": "163/113",
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Trabalhadores Homens",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 278,
+              "label": "Trabalhadores Homens",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "trabalhadores Homens",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 133,
+              "label": "Trabalhadores Mulheres",
+              "dependOn": "163/113",
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Trabalhadores Mulheres",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 279,
+              "label": "Trabalhadoras Mulheres",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "45333a4f-e90c-4ae1-b3f2-14a34f9063f3",
+      "name": "Entidade da papel",
+      "fieldset": [
+        {
+          "id": 42,
+          "label": "Entidade da papel",
+          "dependOn": ["647/492", "493/494"],
+          "description": "Entidade da papel",
+          "controls": [
+            {
+              "id": 145,
+              "label": "Número do contrato",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "contacto de papel",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "paper-entity-code"
+              }
+            },
+            {
+              "id": 631,
+              "label": "Nome do Fiscal",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Entidade de papel",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 137,
+              "label": "Pessoas de contacto",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "57ebc7f0-7fb0-408b-898a-fe86104e41fd",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 144,
+              "label": "Valor do contrato",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "money"
+              }
+            },
+            {
+              "id": 143,
+              "label": "Moeda de Contrato",
+              "dependOn": null,
+              "verifyOn": 66033136,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar",
+              "value": null,
+              "options": [
+                {
+                  "id": 376,
+                  "name": "Metical"
+                },
+                {
+                  "id": 377,
+                  "name": "Dolar"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "57ebc7f0-7fb0-408b-898a-fe86104e41fd",
+      "name": "Pessoas de contacto da papel",
+      "fieldset": [
+        {
+          "id": 45,
+          "label": "Pessoas de contacto da papel",
+          "dependOn": null,
+          "description": "Pessoas de contacto da #papel",
+          "controls": [
+            {
+              "id": 139,
+              "label": "Nome",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nome",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 140,
+              "label": "Telefone",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Telefone",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "tel"
+              }
+            },
+            {
+              "id": 141,
+              "label": "Email",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Email",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d6189313-f7ae-4f1f-936f-5f0e4ac9a434",
+      "name": "Culturas Secundarias",
+      "fieldset": [
+        {
+          "id": 112,
+          "label": "Culturas Secundárias",
+          "dependOn": null,
+          "description": "Culturas Secundárias",
+          "controls": [
+            {
+              "id": 652,
+              "label": "Cultura Secundária",
+              "dependOn": null,
+              "verifyOn": 36530487,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Culturas",
+              "value": null,
+              "options": [
+                {
+                  "id": 3,
+                  "name": "Tomate"
+                },
+                {
+                  "id": 4,
+                  "name": "Couve"
+                },
+                {
+                  "id": 5,
+                  "name": "Cenoura"
+                },
+                {
+                  "id": 6,
+                  "name": "Pepino"
+                },
+                {
+                  "id": 7,
+                  "name": "Pimento"
+                },
+                {
+                  "id": 8,
+                  "name": "Quiabo"
+                },
+                {
+                  "id": 9,
+                  "name": "Piripiri"
+                },
+                {
+                  "id": 10,
+                  "name": "Milho Bebe"
+                },
+                {
+                  "id": 11,
+                  "name": "Batata"
+                },
+                {
+                  "id": 12,
+                  "name": "Batata Reno"
+                },
+                {
+                  "id": 13,
+                  "name": "Maçaroca"
+                },
+                {
+                  "id": 14,
+                  "name": "Milho"
+                },
+                {
+                  "id": 15,
+                  "name": "Mapira"
+                },
+                {
+                  "id": 16,
+                  "name": "Meixoeira"
+                },
+                {
+                  "id": 17,
+                  "name": "Feijão Manteiga"
+                },
+                {
+                  "id": 18,
+                  "name": "Soja"
+                },
+                {
+                  "id": 19,
+                  "name": "Outra"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 656,
+              "label": "Área da  cultura",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Área agregada por cultura",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 692,
+              "label": "Foto da Cultura Secundária",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 2,
+                "contentType": "image/*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "58d1f271-3c04-4fff-bb83-df3e080f70f8",
+      "name": "Pessoa de contacto de Papel",
+      "fieldset": [
+        {
+          "id": 113,
+          "label": "Pessoa de contacto da papel",
+          "dependOn": null,
+          "description": "Pessoas de contacto da #papel",
+          "controls": [
+            {
+              "id": 660,
+              "label": "Nome",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nome",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 661,
+              "label": "Telefone",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Telefone",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "tel"
+              }
+            },
+            {
+              "id": 662,
+              "label": "Email",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Email",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dacf8c53-600e-42dc-a1f7-901bf5629ba3",
+      "name": "projeccao",
+      "fieldset": [
+        {
+          "id": 115,
+          "label": "Projecção",
+          "dependOn": null,
+          "description": "Projecção",
+          "controls": [
+            {
+              "id": 665,
+              "label": "Número do contrato",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "contacto de papel",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "paper-entity-code"
+              }
+            },
+            {
+              "id": 667,
+              "label": "Nome da entidade que projectou",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Entidade de papel",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 666,
+              "label": "Pessoas de Contacto",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "58d1f271-3c04-4fff-bb83-df3e080f70f8",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 670,
+              "label": "Data de Início de Projecção",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 671,
+              "label": "Data de Término de Projecção",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 668,
+              "label": "Data de Início de Execução",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 669,
+              "label": "Data de Término Execução",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 664,
+              "label": "Valor do contrato",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "money"
+              }
+            },
+            {
+              "id": 663,
+              "label": "Moeda de Contrato",
+              "dependOn": null,
+              "verifyOn": 23821125,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar",
+              "value": null,
+              "options": [
+                {
+                  "id": 495,
+                  "name": "Metical"
+                },
+                {
+                  "id": 496,
+                  "name": "Dolar"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3348a2e-69b5-44d8-abb7-7edeb00f29ec",
+      "name": "Construcao",
+      "fieldset": [
+        {
+          "id": 116,
+          "label": "Construção",
+          "dependOn": null,
+          "description": "Construção",
+          "controls": [
+            {
+              "id": 677,
+              "label": "Número do contrato",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "contacto de papel",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "paper-entity-code"
+              }
+            },
+            {
+              "id": 717,
+              "label": "Nome do Construtor",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nome do Construtor",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 678,
+              "label": "Pessoa de papel",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "d9ba9658-a21b-4aa0-a4e0-6a1d6229a3f1",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 682,
+              "label": "Data de Início de Contracto",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 683,
+              "label": "Data de Término de Contracto",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 680,
+              "label": "Data de Início de Execução",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 681,
+              "label": "Data de Término Execução",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 676,
+              "label": "Valor do contrato",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "money"
+              }
+            },
+            {
+              "id": 675,
+              "label": "Moeda de Contrato",
+              "dependOn": null,
+              "verifyOn": 45989331,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar",
+              "value": null,
+              "options": [
+                {
+                  "id": 497,
+                  "name": "Metical"
+                },
+                {
+                  "id": 498,
+                  "name": "Dolar"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d9ba9658-a21b-4aa0-a4e0-6a1d6229a3f1",
+      "name": "pessoas de contactos papeis",
+      "fieldset": [
+        {
+          "id": 117,
+          "label": "pessoas de Papel",
+          "dependOn": null,
+          "description": "Pessoas de Papel",
+          "controls": [
+            {
+              "id": 672,
+              "label": "Nome",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nome",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 673,
+              "label": "Telefone",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Telefone",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "tel"
+              }
+            },
+            {
+              "id": 674,
+              "label": "Email",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Email",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca42c1b5-d319-4929-9631-f92eda27d2d4",
+      "name": "Gestão de Regadio",
+      "fieldset": [
+        {
+          "id": 125,
+          "label": "Gestão de Regadio",
+          "dependOn": null,
+          "description": "Gestão de Regadio",
+          "controls": [
+            {
+              "id": 739,
+              "label": "Modelo de regadio",
+              "dependOn": null,
+              "verifyOn": 55719823,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 619,
+                  "name": "Sistemas públicos gerido por agricultores"
+                },
+                {
+                  "id": 620,
+                  "name": "Sistema público gerido po Empresa ou Associação"
+                },
+                {
+                  "id": 621,
+                  "name": "Parcerias Público-Privado"
+                },
+                {
+                  "id": 622,
+                  "name": "Sistema privado"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 740,
+              "label": "Número de Benefiários Homens",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nº de Beneficiários ",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 744,
+              "label": "Número de Benefiários Mulheres",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nº de Beneficiários ",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 745,
+              "label": "Número de Benefiários Jovens-Homens",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nº de Beneficiários ",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 746,
+              "label": "Número de Benefiários Jovens-Mulheres",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nº de Beneficiários ",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 764,
+              "label": "Os produtores estão organizados?",
+              "dependOn": null,
+              "verifyOn": 29265611,
+              "type": "radio",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 660,
+                  "name": "Sim"
+                },
+                {
+                  "id": 661,
+                  "name": "Não"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 765,
+              "label": "Tipo de organização",
+              "dependOn": "764/660",
+              "verifyOn": 10598056,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 670,
+                  "name": "Associação de produtores agrícolas"
+                },
+                {
+                  "id": 671,
+                  "name": "Cooperativa"
+                },
+                {
+                  "id": 672,
+                  "name": "Produtor individual"
+                },
+                {
+                  "id": 673,
+                  "name": "Empresa privada"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 766,
+              "label": "Estão Legalizadas? ",
+              "dependOn": "764/660",
+              "verifyOn": 21232604,
+              "type": "radio",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 662,
+                  "name": "Sim"
+                },
+                {
+                  "id": 663,
+                  "name": "Não"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 767,
+              "label": "Tipo de Documento?",
+              "dependOn": "766/662",
+              "verifyOn": 43231514,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 674,
+                  "name": "DUAT"
+                },
+                {
+                  "id": 675,
+                  "name": "Alvará"
+                },
+                {
+                  "id": 676,
+                  "name": "Estatuto da associação"
+                },
+                {
+                  "id": 677,
+                  "name": "Outro "
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 768,
+              "label": "Existe um comité de gestão de rega no regadio?",
+              "dependOn": null,
+              "verifyOn": 35446571,
+              "type": "radio",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 664,
+                  "name": "Sim"
+                },
+                {
+                  "id": 665,
+                  "name": "Não"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 769,
+              "label": "O comité de gestão esta registado?",
+              "dependOn": "768/664",
+              "verifyOn": 6180498,
+              "type": "radio",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 666,
+                  "name": "Sim"
+                },
+                {
+                  "id": 667,
+                  "name": "Não"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 770,
+              "label": "Quantas vezes se reuniu nos 6 meses",
+              "dependOn": "768/664",
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 771,
+              "label": "Quem é responsável da manuntenção",
+              "dependOn": "768/664",
+              "verifyOn": 62681597,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 678,
+                  "name": "Produtores"
+                },
+                {
+                  "id": 679,
+                  "name": "Governo"
+                },
+                {
+                  "id": 680,
+                  "name": "Produtores e Governo"
+                },
+                {
+                  "id": 681,
+                  "name": "Empresa pública"
+                },
+                {
+                  "id": 682,
+                  "name": "Outro "
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 772,
+              "label": "Qual é a média de cada produtor?",
+              "dependOn": "768/664",
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "media de produção",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 773,
+              "label": "O regadio beneficiou-se de apoio financeiro nos ultimos 12 meses?  ",
+              "dependOn": null,
+              "verifyOn": 41245134,
+              "type": "radio",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 668,
+                  "name": "Sim"
+                },
+                {
+                  "id": 669,
+                  "name": "Não"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 774,
+              "label": "Que tipo de Apoio Recebeu?  ",
+              "dependOn": "773/668",
+              "verifyOn": 60841448,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 683,
+                  "name": "Donativo"
+                },
+                {
+                  "id": 684,
+                  "name": "Comparticipação"
+                },
+                {
+                  "id": 685,
+                  "name": "Outro "
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dbc541f5-2461-4cb4-a460-2f1ef24ac8bd",
+      "name": "Fonte e Disponibilidade de água",
+      "fieldset": [
+        {
+          "id": 126,
+          "label": "Fonte e disponibilidade de água",
+          "dependOn": null,
+          "description": "Fonte e disponibilidade de água",
+          "controls": [
+            {
+              "id": 775,
+              "label": "Tipo de Fonte",
+              "dependOn": null,
+              "verifyOn": 6060202,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Fonte de água",
+              "value": null,
+              "options": [
+                {
+                  "id": 694,
+                  "name": "Fonte Primária"
+                },
+                {
+                  "id": 695,
+                  "name": "Fonte Secundária"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 750,
+              "label": "Fonte de água",
+              "dependOn": null,
+              "verifyOn": 60155392,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Fonte de água",
+              "value": null,
+              "options": [
+                {
+                  "id": 623,
+                  "name": "Furo"
+                },
+                {
+                  "id": 624,
+                  "name": "Lagos"
+                },
+                {
+                  "id": 625,
+                  "name": "Poços"
+                },
+                {
+                  "id": 626,
+                  "name": "Rio"
+                },
+                {
+                  "id": 627,
+                  "name": "Outras"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 751,
+              "label": "Nome da fonte",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Rendimento",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 752,
+              "label": "Existe sistema de retenção",
+              "dependOn": null,
+              "verifyOn": 55303689,
+              "type": "radio",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Rendimento",
+              "value": null,
+              "options": [
+                {
+                  "id": 628,
+                  "name": "Sim"
+                },
+                {
+                  "id": 629,
+                  "name": "Não"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 753,
+              "label": "Sistema de retenção",
+              "dependOn": "752/628",
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 754,
+              "label": "Fonte de água permanente",
+              "dependOn": "752/628",
+              "verifyOn": 20526792,
+              "type": "radio",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Rendimento",
+              "value": null,
+              "options": [
+                {
+                  "id": 630,
+                  "name": "Sim"
+                },
+                {
+                  "id": 631,
+                  "name": "Não"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 755,
+              "label": "Método de captação",
+              "dependOn": null,
+              "verifyOn": 28409451,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 632,
+                  "name": "Bombagem"
+                },
+                {
+                  "id": 633,
+                  "name": "Gravidade"
+                },
+                {
+                  "id": 634,
+                  "name": "Ambos"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 756,
+              "label": "Captação por bombagem",
+              "dependOn": "755/632",
+              "verifyOn": 59727572,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 635,
+                  "name": "Bomba eléctrica"
+                },
+                {
+                  "id": 636,
+                  "name": "Bomba pedestral"
+                },
+                {
+                  "id": 637,
+                  "name": "Bomba solar"
+                },
+                {
+                  "id": 638,
+                  "name": "Motobomba"
+                },
+                {
+                  "id": 639,
+                  "name": "Outro"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 757,
+              "label": "Caracteristicas do equipamento",
+              "dependOn": "755/632",
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Rendimento",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 758,
+              "label": "Captação por gravidade",
+              "dependOn": "755/633",
+              "verifyOn": 46319462,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 640,
+                  "name": "Acude"
+                },
+                {
+                  "id": 641,
+                  "name": "Barragem"
+                },
+                {
+                  "id": 642,
+                  "name": "Canal alinhado"
+                },
+                {
+                  "id": 643,
+                  "name": "Canal de Terra"
+                },
+                {
+                  "id": 644,
+                  "name": "Desvio directa do rio"
+                },
+                {
+                  "id": 645,
+                  "name": "Represa"
+                },
+                {
+                  "id": 646,
+                  "name": "Tubagem"
+                },
+                {
+                  "id": 647,
+                  "name": "Outras"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1ec5660b-0547-4681-9290-ce8e4d78d4d1",
+      "name": "Método de rega",
+      "fieldset": [
+        {
+          "id": 128,
+          "label": "Rega, Drenagem e Infraestrutura de rega",
+          "dependOn": null,
+          "description": "Rega, Drenagem e Infraestrutura de rega",
+          "controls": [
+            {
+              "id": 713,
+              "label": "Método de rega",
+              "dependOn": null,
+              "verifyOn": 35712806,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar",
+              "value": null,
+              "options": [
+                {
+                  "id": 605,
+                  "name": "Superficial"
+                },
+                {
+                  "id": 606,
+                  "name": "Subsuperficial"
+                },
+                {
+                  "id": 607,
+                  "name": "Aspersão"
+                },
+                {
+                  "id": 653,
+                  "name": "Localizada"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 714,
+              "label": "Tipo de Sistema  de irrigação",
+              "dependOn": "713/606",
+              "verifyOn": 11771439,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 136,
+                  "name": "Maneio do Lençol freático"
+                },
+                {
+                  "id": 137,
+                  "name": "Gota a Gota"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 715,
+              "label": "Tipo de Sistema  de irrigação",
+              "dependOn": "713/607",
+              "verifyOn": 45873635,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 138,
+                  "name": "Convencional"
+                },
+                {
+                  "id": 139,
+                  "name": "Canhão"
+                },
+                {
+                  "id": 654,
+                  "name": "Pivot"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 760,
+              "label": "Tipo de Sistema  de irrigação",
+              "dependOn": "713/653",
+              "verifyOn": 23822250,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 655,
+                  "name": "Gota a Gota"
+                },
+                {
+                  "id": 656,
+                  "name": "Micro"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 122,
+              "label": "Tipo de Sistema de irrigação",
+              "dependOn": "713/605",
+              "verifyOn": 30505212,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 134,
+                  "name": "Faixas"
+                },
+                {
+                  "id": 135,
+                  "name": "Sulcos"
+                },
+                {
+                  "id": 742,
+                  "name": "Inundação"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 761,
+              "label": "Possui sistema de drenagem?",
+              "dependOn": null,
+              "verifyOn": 36629686,
+              "type": "radio",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 658,
+                  "name": "Sim"
+                },
+                {
+                  "id": 659,
+                  "name": "Não"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 762,
+              "label": "Meio de Drenagem",
+              "dependOn": "761/658",
+              "verifyOn": 31025919,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 714,
+                  "name": "Vala"
+                },
+                {
+                  "id": 715,
+                  "name": "Tubagem"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 784,
+              "label": "Estado de conservação",
+              "dependOn": "761/658",
+              "verifyOn": 47564538,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 716,
+                  "name": "Bom"
+                },
+                {
+                  "id": 717,
+                  "name": "Razoável"
+                },
+                {
+                  "id": 718,
+                  "name": "Mau"
+                },
+                {
+                  "id": 719,
+                  "name": "Inoperacional"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 763,
+              "label": "Infra-estrutura de rega",
+              "dependOn": null,
+              "verifyOn": 59331211,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 700,
+                  "name": "Tubagem"
+                },
+                {
+                  "id": 701,
+                  "name": "Casa de bomba"
+                },
+                {
+                  "id": 702,
+                  "name": "Armazém"
+                },
+                {
+                  "id": 703,
+                  "name": "Canais  revestidos"
+                },
+                {
+                  "id": 704,
+                  "name": "Canais não revestidos"
+                },
+                {
+                  "id": 705,
+                  "name": "Valas revestidas"
+                },
+                {
+                  "id": 706,
+                  "name": "Valas não revestidas"
+                },
+                {
+                  "id": 707,
+                  "name": "Estufas ou sombrites"
+                },
+                {
+                  "id": 708,
+                  "name": "Estação elevatória"
+                },
+                {
+                  "id": 709,
+                  "name": "reservatório escavado"
+                },
+                {
+                  "id": 710,
+                  "name": "reservatório elevado"
+                },
+                {
+                  "id": 711,
+                  "name": "Disponibilidade de electricidade"
+                },
+                {
+                  "id": 712,
+                  "name": "Outro "
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6184214e-d1bd-427f-8c9c-3fb89089e53d",
+      "name": "Cadastro de contingencias",
+      "fieldset": [
+        {
+          "id": 46,
+          "label": "Cadastro de contingencias",
+          "dependOn": null,
+          "description": "Cadastro de contingencias",
+          "controls": [
+            {
+              "id": 207,
+              "label": "Moeda de Contrato",
+              "dependOn": null,
+              "verifyOn": 45167377,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar",
+              "value": null,
+              "options": [
+                {
+                  "id": 380,
+                  "name": "Metical"
+                },
+                {
+                  "id": 381,
+                  "name": "Dolar"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 208,
+              "label": "Valor da contigencia",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "valor ",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "money"
+              }
+            },
+            {
+              "id": 209,
+              "label": "Aprovação",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 2,
+                "contentType": "image/*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "804209bf-506b-4032-92c7-05f40dc203b3",
+      "name": "Fase",
+      "fieldset": [
+        {
+          "id": 39,
+          "label": "Fase",
+          "dependOn": null,
+          "description": "Fase",
+          "controls": [
+            {
+              "id": 197,
+              "label": "Fase",
+              "dependOn": null,
+              "verifyOn": 18483539,
+              "type": "dropdown",
+              "labelField": 197,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar Fase",
+              "value": null,
+              "options": [
+                {
+                  "id": 147,
+                  "name": "Estudo"
+                },
+                {
+                  "id": 148,
+                  "name": "Projecção"
+                },
+                {
+                  "id": 149,
+                  "name": "Consignação"
+                },
+                {
+                  "id": 150,
+                  "name": "Início"
+                },
+                {
+                  "id": 151,
+                  "name": "Término"
+                },
+                {
+                  "id": 152,
+                  "name": "Entrega provisória"
+                },
+                {
+                  "id": 153,
+                  "name": "Entrega definitiva"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 198,
+              "label": "Data de inicio prevista",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 199,
+              "label": "Duração prevista",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Duração",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "time"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aee7b2dd-f396-4c7f-b2c8-71ca31d93da7",
+      "name": "Cronograma da obra",
+      "fieldset": [
+        {
+          "id": 48,
+          "label": "Cronograma da obra",
+          "dependOn": null,
+          "description": "Cronograma da obra",
+          "controls": [
+            {
+              "id": 179,
+              "label": "Data",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Mes",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "month"
+              }
+            },
+            {
+              "id": 180,
+              "label": "Execução física prevista",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "%",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b168da8c-09a0-4ea8-9fea-f06a116afe40",
+      "name": "Provedor de serviço",
+      "fieldset": [
+        {
+          "id": 52,
+          "label": "Provedor de serviço",
+          "dependOn": null,
+          "description": "Provedor de serviço",
+          "controls": [
+            {
+              "id": 181,
+              "label": "Nome do provedor de serviço",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "nome do previdor",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 182,
+              "label": "Tipo de serviço",
+              "dependOn": null,
+              "verifyOn": 3846268,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Serviço",
+              "value": null,
+              "options": [
+                {
+                  "id": 118,
+                  "name": "Mecanização"
+                },
+                {
+                  "id": 119,
+                  "name": "Comercialização"
+                },
+                {
+                  "id": 120,
+                  "name": "Provisão de meios e Insumos"
+                },
+                {
+                  "id": 121,
+                  "name": "Prestação de serviços"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 628,
+              "label": "Tipo de Produto",
+              "dependOn": "182/120",
+              "verifyOn": 13662774,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecione o Tipo",
+              "value": null,
+              "options": [
+                {
+                  "id": 451,
+                  "name": "Pesticida"
+                },
+                {
+                  "id": 452,
+                  "name": "Fertilizantes"
+                },
+                {
+                  "id": 453,
+                  "name": "Sementes"
+                },
+                {
+                  "id": 454,
+                  "name": "equipamentos agrícolas"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 184,
+              "label": "Culturas",
+              "dependOn": null,
+              "verifyOn": 64549437,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Culturas",
+              "value": null,
+              "options": [
+                {
+                  "id": 1,
+                  "name": "Repolho"
+                },
+                {
+                  "id": 2,
+                  "name": "Cebola"
+                },
+                {
+                  "id": 20,
+                  "name": "Arroz"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 185,
+              "label": "Categoria",
+              "dependOn": "182/119",
+              "verifyOn": 13360898,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Categoria",
+              "value": null,
+              "options": [
+                {
+                  "id": 156,
+                  "name": "Fomento"
+                },
+                {
+                  "id": 157,
+                  "name": "Compra e Processamento"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 629,
+              "label": "Categoria",
+              "dependOn": "182/118",
+              "verifyOn": 12143408,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Categoria",
+              "value": null,
+              "options": [
+                {
+                  "id": 467,
+                  "name": "Lavoura"
+                },
+                {
+                  "id": 468,
+                  "name": "Sulcagem"
+                },
+                {
+                  "id": 469,
+                  "name": "Gradagem"
+                },
+                {
+                  "id": 470,
+                  "name": "Sementes"
+                },
+                {
+                  "id": 471,
+                  "name": "Nivelamento"
+                },
+                {
+                  "id": 472,
+                  "name": "Colheita"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 630,
+              "label": "Categoria",
+              "dependOn": "182/121",
+              "verifyOn": 53684995,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Categoria",
+              "value": null,
+              "options": [
+                {
+                  "id": 461,
+                  "name": "Campos de demonstração"
+                },
+                {
+                  "id": 462,
+                  "name": "Vitrinas tecnológicas"
+                },
+                {
+                  "id": 463,
+                  "name": "Escolas da machamba do camponês"
+                },
+                {
+                  "id": 464,
+                  "name": "PITTA"
+                },
+                {
+                  "id": 465,
+                  "name": "Reparações de implementos"
+                },
+                {
+                  "id": 466,
+                  "name": "Outros"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ea904a38-b048-4e87-af79-1286bd503d8b",
+      "name": "Cadastro de adenda",
+      "fieldset": [
+        {
+          "id": 41,
+          "label": "Cadastro de Adenda",
+          "dependOn": null,
+          "description": "Cadastro de Adenda",
+          "controls": [
+            {
+              "id": 153,
+              "label": "Número da adenda",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "numero de adenda",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 154,
+              "label": "Tipo da adenda",
+              "dependOn": null,
+              "verifyOn": 914366,
+              "type": "chip",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar o Tipo de Adeda",
+              "value": null,
+              "options": [
+                {
+                  "id": 105,
+                  "name": "Adenda ao tempo"
+                },
+                {
+                  "id": 106,
+                  "name": "Adenda ao orçamento"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 155,
+              "label": "Objecto da adenda",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Objecto da adenda",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 156,
+              "label": "Data da assinatura da adenda",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "data de assinatura",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 157,
+              "label": "Moeda de Contrato",
+              "dependOn": null,
+              "verifyOn": 19201703,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar",
+              "value": null,
+              "options": [
+                {
+                  "id": 378,
+                  "name": "Metical"
+                },
+                {
+                  "id": 379,
+                  "name": "Dolar"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 158,
+              "label": "Valor da adenda",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "money"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

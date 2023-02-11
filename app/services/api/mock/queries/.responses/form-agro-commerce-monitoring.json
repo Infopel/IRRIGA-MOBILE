@@ -1,0 +1,85 @@
+{
+	"form": [
+		{
+			"id": "df11e906-9c1e-4775-bcd4-f8c364d39e6c",
+			"name": "Formulário Monitoria da Comercialização Agrícola",
+			"fieldset": [
+				{
+					"id": 30,
+					"label": "Monitoria d\r\na Comercialização\r\nAgrícola",
+					"description": "Monitoria d\r\na Comercialização\r\nAgrícola",
+					"controls": [
+						{
+							"id": 167,
+							"label": "Cultura",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "dropdown",
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar Cultura",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 168,
+							"label": "Quantidade comercializada\r\n(\r\nkgs\r\n)",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"filterWithDropdown": null,
+							"placeholder": "Kgs",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 1,
+								"max": 0,
+								"contentType": "number"
+							}
+						},
+						{
+							"id": 169,
+							"label": "Preço por Kg (Mts)",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"filterWithDropdown": null,
+							"placeholder": "Mts",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 1,
+								"max": 0,
+								"contentType": "money"
+							}
+						},
+						{
+							"id": 170,
+							"label": "Percentagem Comercializada",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"filterWithDropdown": null,
+							"placeholder": "%",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 1,
+								"max": 0,
+								"contentType": "number"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

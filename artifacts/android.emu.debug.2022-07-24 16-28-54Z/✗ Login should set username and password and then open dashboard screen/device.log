@@ -1,0 +1,33 @@
+--------- beginning of kernel
+07-24 18:30:02.102     0     0 D logd    : logdr: UID=2000 GID=2000 PID=4581 b tail=0 logMask=99 pid=0 start=1658680201000000000ns timeout=0ns
+--------- beginning of system
+07-24 18:30:02.130   514  1065 W ActivityManager: Invalid packageName: com.irriga
+--------- beginning of main
+07-24 18:30:02.133  4584  4588 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+07-24 18:30:02.617  1311  1527 I MediaProvider: Deleted 1 items on external_primary due to com.android.shell
+07-24 18:30:02.704  4599  4600 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+07-24 18:30:03.013  4603  4603 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+07-24 18:30:03.019  4603  4603 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+07-24 18:30:03.019  4603  4603 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+07-24 18:30:03.019  4603  4603 I AndroidRuntime: Using default boot image
+07-24 18:30:03.020  4603  4603 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+07-24 18:30:03.020  4603  4603 I AndroidRuntime: Leaving lock profiling enabled
+07-24 18:30:03.020  4603  4603 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+07-24 18:30:03.024  4603  4603 I app_process: Core platform API reporting enabled, enforcing=false
+07-24 18:30:03.016  4603  4603 W app_process: type=1400 audit(0.0:94): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8261 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+07-24 18:30:03.020  4603  4603 W app_process: type=1400 audit(0.0:97): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=8261 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+07-24 18:30:03.179  4603  4603 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+07-24 18:30:03.180  4603  4603 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+07-24 18:30:03.187  4603  4603 W app_process: Unexpected CPU variant for X86 using defaults: x86
+07-24 18:30:03.188  4603  4603 I app_process: The ClassLoaderContext is a special shared library.
+07-24 18:30:03.205  4603  4603 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+07-24 18:30:03.209  4603  4603 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+07-24 18:30:03.219   514  1425 W ActivityManager: Unable to find instrumentation target package: com.irriga
+07-24 18:30:03.224  4603  4603 I app_process: System.exit called, status: 1
+07-24 18:30:03.225  4603  4603 I AndroidRuntime: VM exiting with result code 1.
+07-24 18:30:32.460  1468  4847 I GmscoreIpa: Starting mediastore instant index
+07-24 18:30:49.919   461   461 E wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+07-24 18:30:49.919   461   461 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+07-24 18:30:50.011   452   452 E netmgr  : qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+07-24 18:30:50.011   452   452 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+07-24 18:31:00.003   688   688 D KeyguardClockSwitch: Updating clock: 631

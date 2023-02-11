@@ -1,0 +1,482 @@
+Jul 24 16:26:29 detox[29307] TRACE: [DETOX_CREATE] created a Detox instance with config:
+{
+  appsConfig: {
+    default: {
+      type: 'android.apk',
+      binaryPath: 'android/app/build/outputs/apk/debug/app-debug.apk',
+      build: 'cd ./android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && cd ..'
+    }
+  },
+  artifactsConfig: {
+    rootDir: 'artifacts/android.att.debug.2022-07-24 14-26-28Z',
+    plugins: {
+      log: {
+        enabled: true,
+        keepOnlyFailedTestsArtifacts: false
+      },
+      screenshot: {
+        enabled: true,
+        shouldTakeAutomaticSnapshots: false,
+        keepOnlyFailedTestsArtifacts: false
+      },
+      video: {
+        enabled: false,
+        keepOnlyFailedTestsArtifacts: false
+      },
+      instruments: {
+        enabled: false,
+        keepOnlyFailedTestsArtifacts: false
+      },
+      timeline: {
+        enabled: false
+      },
+      uiHierarchy: {
+        enabled: false,
+        keepOnlyFailedTestsArtifacts: false
+      }
+    },
+    pathBuilder: ArtifactPathBuilder {
+      _rootDir: 'artifacts/android.att.debug.2022-07-24 14-26-28Z'
+    }
+  },
+  behaviorConfig: {
+    init: {
+      reinstallApp: false,
+      exposeGlobals: true
+    },
+    cleanup: {
+      shutdownDevice: false
+    },
+    launchApp: 'auto'
+  },
+  cliConfig: {
+    recordLogs: 'all',
+    configuration: 'android.att.debug',
+    loglevel: 'trace',
+    reuse: true,
+    useCustomLogger: true
+  },
+  configurationName: 'android.att.debug',
+  deviceConfig: {
+    type: 'android.attached',
+    device: {
+      adbName: 'R9PRA05C9XX'
+    }
+  },
+  runnerConfig: {
+    testRunner: 'jest',
+    runnerConfig: 'e2e/config.json',
+    specs: 'e2e',
+    skipLegacyWorkersInjection: true
+  },
+  sessionConfig: {
+    autoStart: true,
+    sessionId: '935a92d5-fa99-73fa-2e30-ebc15f8c9902',
+    debugSynchronization: 10000
+  }
+}
+Jul 24 16:26:29 detox[29307] DEBUG: [WSS_CREATE] Detox server listening on localhost:43077...
+Jul 24 16:26:29 detox[29307] DEBUG: [WSS_CONNECTION, #50398] registered a new connection.
+Jul 24 16:26:29 detox[29307] TRACE: [WS_OPEN] opened web socket to: ws://localhost:43077
+Jul 24 16:26:29 detox[29307] TRACE: [WS_SEND] {"type":"login","params":{"sessionId":"935a92d5-fa99-73fa-2e30-ebc15f8c9902","role":"tester"},"messageId":0}
+Jul 24 16:26:29 detox[29307] TRACE: [WSS_GET_FROM, #50398] {"type":"login","params":{"sessionId":"935a92d5-fa99-73fa-2e30-ebc15f8c9902","role":"tester"},"messageId":0}
+Jul 24 16:26:29 detox[29307] TRACE: [SESSION_CREATED] created session 935a92d5-fa99-73fa-2e30-ebc15f8c9902
+Jul 24 16:26:29 detox[29307] TRACE: [WSS_SEND_TO, #tester] {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+Jul 24 16:26:29 detox[29307] TRACE: [SESSION_JOINED] tester joined session 935a92d5-fa99-73fa-2e30-ebc15f8c9902
+Jul 24 16:26:29 detox[29307] TRACE: [WS_MESSAGE] {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+ 
+Jul 24 16:26:29 detox[29307] DEBUG: [EXEC_CMD, #0] "/home/sutuioncode/Android/platform-tools/adb"  devices
+Jul 24 16:26:29 detox[29307] DEBUG: [EXEC_SUCCESS, #0] List of devices attached
+R9PRA05C9XX	device
+
+
+Jul 24 16:26:29 detox[29307] DEBUG: [DEVICE_LOOKUP] Found a matching & free device R9PRA05C9XX
+Jul 24 16:26:29 detox[29307] DEBUG: [EXEC_CMD, #1] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "getprop ro.build.version.sdk"
+Jul 24 16:26:29 detox[29307] TRACE: [EXEC_SUCCESS, #1] 30
+
+Jul 24 16:26:29 detox[29307] DEBUG: [EXEC_CMD, #2] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "dumpsys power | grep \"^[ ]*m[UW].*=\""
+Jul 24 16:26:29 detox[29307] TRACE: [EXEC_SUCCESS, #2]   mWakefulnessChanging=false
+  mWakeLockSummary=0x0
+  mUserActivitySummary=0x4
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mUserActivityTimeoutForDexOverrideFromWindowManager=-1
+  mUserInactiveOverrideFromWindowManager=false
+  mUserId=0
+
+Jul 24 16:26:29 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBootDevice({ deviceId: 'R9PRA05C9XX', type: 'device', coldBoot: false })
+Jul 24 16:26:30 detox[29307] DEBUG: [EXEC_CMD, #3] "/home/sutuioncode/Android/build-tools/30.0.2/aapt" dump badging "/home/sutuioncode/ProjectsIsutc/Irriga/android/app/build/outputs/apk/debug/app-debug.apk"
+Jul 24 16:26:30 detox[29307] TRACE: [EXEC_SUCCESS, #3] package: name='com.irriga' versionCode='1' versionName='1.0' compileSdkVersion='31' compileSdkVersionCodename='12'
+sdkVersion:'21'
+targetSdkVersion:'31'
+uses-permission: name='android.permission.SYSTEM_ALERT_WINDOW'
+uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'
+uses-permission: name='android.permission.ACCESS_FINE_LOCATION'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.CAMERA'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.USE_BIOMETRIC'
+uses-permission: name='android.permission.USE_FINGERPRINT'
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.WAKE_LOCK'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+uses-permission: name='android.permission.RECEIVE_BOOT_COMPLETED'
+uses-permission: name='android.permission.FOREGROUND_SERVICE'
+uses-permission: name='com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE'
+application-label:'Irriga'
+application-label-af:'Irriga'
+application-label-am:'Irriga'
+application-label-ar:'Irriga'
+application-label-as:'Irriga'
+application-label-az:'Irriga'
+application-label-be:'Irriga'
+application-label-bg:'Irriga'
+application-label-bn:'Irriga'
+application-label-bs:'Irriga'
+application-label-ca:'Irriga'
+application-label-cs:'Irriga'
+application-label-da:'Irriga'
+application-label-de:'Irriga'
+application-label-el:'Irriga'
+application-label-en-AU:'Irriga'
+application-label-en-CA:'Irriga'
+application-label-en-GB:'Irriga'
+application-label-en-IN:'Irriga'
+application-label-en-XC:'Irriga'
+application-label-es:'Irriga'
+application-label-es-US:'Irriga'
+application-label-et:'Irriga'
+application-label-eu:'Irriga'
+application-label-fa:'Irriga'
+application-label-fi:'Irriga'
+application-label-fr:'Irriga'
+application-label-fr-CA:'Irriga'
+application-label-gl:'Irriga'
+application-label-gu:'Irriga'
+application-label-hi:'Irriga'
+application-label-hr:'Irriga'
+application-label-hu:'Irriga'
+application-label-hy:'Irriga'
+application-label-in:'Irriga'
+application-label-is:'Irriga'
+application-label-it:'Irriga'
+application-label-iw:'Irriga'
+application-label-ja:'Irriga'
+application-label-ka:'Irriga'
+application-label-kk:'Irriga'
+application-label-km:'Irriga'
+application-label-kn:'Irriga'
+application-label-ko:'Irriga'
+application-label-ky:'Irriga'
+application-label-lo:'Irriga'
+application-label-lt:'Irriga'
+application-label-lv:'Irriga'
+application-label-mk:'Irriga'
+application-label-ml:'Irriga'
+application-label-mn:'Irriga'
+application-label-mr:'Irriga'
+application-label-ms:'Irriga'
+application-label-my:'Irriga'
+application-label-nb:'Irriga'
+application-label-ne:'Irriga'
+application-label-nl:'Irriga'
+application-label-or:'Irriga'
+application-label-pa:'Irriga'
+application-label-pl:'Irriga'
+application-label-pt:'Irriga'
+application-label-pt-BR:'Irriga'
+application-label-pt-PT:'Irriga'
+application-label-ro:'Irriga'
+application-label-ru:'Irriga'
+application-label-si:'Irriga'
+application-label-sk:'Irriga'
+application-label-sl:'Irriga'
+application-label-sq:'Irriga'
+application-label-sr:'Irriga'
+application-label-sr-Latn:'Irriga'
+application-label-sv:'Irriga'
+application-label-sw:'Irriga'
+application-label-ta:'Irriga'
+application-label-te:'Irriga'
+application-label-th:'Irriga'
+application-label-tl:'Irriga'
+application-label-tr:'Irriga'
+application-label-uk:'Irriga'
+application-label-ur:'Irriga'
+application-label-uz:'Irriga'
+application-label-vi:'Irriga'
+application-label-zh:'Irriga'
+application-label-zh-CN:'Irriga'
+application-label-zh-HK:'Irriga'
+application-label-zh-TW:'Irriga'
+application-label-zu:'Irriga'
+application-icon-120:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-160:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-240:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-320:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-480:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-640:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application-icon-65534:'res/mipmap-anydpi-v26/ic_launcher.xml'
+application: label='Irriga' icon='res/mipmap-anydpi-v26/ic_launcher.xml'
+application-debuggable
+launchable-activity: name='com.irriga.MainActivity'  label='' icon=''
+uses-library-not-required:'org.apache.http.legacy'
+feature-group: label=''
+  uses-gl-es: '0x20000'
+  uses-feature: name='android.hardware.camera'
+  uses-implied-feature: name='android.hardware.camera' reason='requested android.permission.CAMERA permission'
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+  uses-feature: name='android.hardware.location'
+  uses-implied-feature: name='android.hardware.location' reason='requested android.permission.ACCESS_COARSE_LOCATION permission, and requested android.permission.ACCESS_FINE_LOCATION permission'
+  uses-feature: name='android.hardware.wifi'
+  uses-implied-feature: name='android.hardware.wifi' reason='requested android.permission.ACCESS_WIFI_STATE permission'
+main
+other-activities
+other-receivers
+other-services
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
+densities: '120' '160' '240' '320' '480' '640' '65534'
+native-code: 'arm64-v8a' 'armeabi' 'armeabi-v7a' 'x86' 'x86_64'
+
+Jul 24 16:26:35 ROOT_DESCRIBE_BLOCK[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeStart({ name: 'ROOT_DESCRIBE_BLOCK' })
+Jul 24 16:26:35 Login[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeStart({ name: 'Login' })
+Jul 24 16:26:35 detox[29307] INFO:  [97mLogin[39m is assigned to [94mAttachedDevice:R9PRA05C9XX[39m
+Jul 24 16:26:35 detox[29307] INFO:  [1m[37mLogin: [39m[22m[90mshould have a login screen[39m
+Jul 24 16:26:35 detox[29307] TRACE: [DETOX_BEFORE_EACH] running test: "Login should have a login screen"
+Jul 24 16:26:35 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onTestStart({
+  title: 'should have a login screen',
+  fullName: 'Login should have a login screen',
+  status: 'running',
+  invocations: 1
+})
+Jul 24 16:26:35 detox[29307] TRACE: [ARTIFACT_START] starting ADBLogcatRecording
+Jul 24 16:26:35 detox[29307] DEBUG: [SPAWN_CMD, #4, cpid=29346] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell "logcat -f /sdcard/162629752_0.log"
+Jul 24 16:26:35 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeTerminateApp({ deviceId: 'R9PRA05C9XX', bundleId: 'com.irriga' })
+Jul 24 16:26:35 detox[29307] DEBUG: [EXEC_CMD, #5] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "am force-stop com.irriga"
+Jul 24 16:26:35 detox[29307] DEBUG: [EXEC_CMD, #6] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell du /sdcard/162629752_0.log
+Jul 24 16:26:39 detox[29307] TRACE: [EXEC_SUCCESS, #6] 0	/sdcard/162629752_0.log
+
+Jul 24 16:26:39 detox[29307] TRACE: [EXEC_SUCCESS, #5] 
+Jul 24 16:26:39 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onTerminateApp({ deviceId: 'R9PRA05C9XX', bundleId: 'com.irriga' })
+Jul 24 16:26:39 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeLaunchApp({
+  deviceId: 'R9PRA05C9XX',
+  bundleId: 'com.irriga',
+  launchArgs: {
+    detoxServer: 'ws://localhost:43077',
+    detoxSessionId: '935a92d5-fa99-73fa-2e30-ebc15f8c9902'
+  }
+})
+Jul 24 16:26:39 detox[29307] DEBUG: [EXEC_CMD, #7] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "date +\"%m-%d %T.000\""
+Jul 24 16:26:39 detox[29307] TRACE: [EXEC_SUCCESS, #7] 07-24 16:26:42.000
+
+Jul 24 16:26:39 detox[29307] DEBUG: [EXEC_CMD, #8] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX reverse tcp:43077 tcp:43077
+Jul 24 16:26:39 detox[29307] TRACE: [EXEC_SUCCESS, #8] 43077
+
+Jul 24 16:26:39 detox[29307] DEBUG: [EXEC_CMD, #9] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "pm list instrumentation"
+Jul 24 16:26:39 detox[29307] TRACE: [EXEC_SUCCESS, #9] instrumentation:com.irriga.test/androidx.test.runner.AndroidJUnitRunner (target=com.irriga)
+
+Jul 24 16:26:39 detox[29307] DEBUG: [SPAWN_CMD, #10, cpid=29368] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell am instrument -w -r -e detoxServer ws://localhost:43077 -e detoxSessionId 935a92d5-fa99-73fa-2e30-ebc15f8c9902 -e debug false com.irriga.test/androidx.test.runner.AndroidJUnitRunner
+Jul 24 16:26:40 detox[29307] DEBUG: [EXEC_CMD, #11] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "ps | grep \"com\.irriga$\""
+Jul 24 16:26:43 detox[29307] TRACE: [EXEC_SUCCESS, #11] u0_a304       24159    599 6328504 131372 0                   0 S com.irriga
+
+Jul 24 16:26:43 detox[24159] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onLaunchApp({
+  deviceId: 'R9PRA05C9XX',
+  bundleId: 'com.irriga',
+  launchArgs: {
+    detoxServer: 'ws://localhost:43077',
+    detoxSessionId: '935a92d5-fa99-73fa-2e30-ebc15f8c9902'
+  },
+  pid: 24159
+})
+Jul 24 16:26:43 detox[29307] TRACE: [ARTIFACT_START] starting ADBLogcatRecording
+Jul 24 16:26:43 detox[29307] TRACE: [ARTIFACT_STOP] stopping ADBLogcatRecording
+Jul 24 16:26:43 detox[29307] DEBUG: [EXEC_CMD, #12] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "date +\"%m-%d %T.000\""
+Jul 24 16:26:43 detox[29307] TRACE: [SPAWN_STDOUT, #10, cpid=29368] INSTRUMENTATION_STATUS: class=com.irriga.DetoxTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.irriga.DetoxTest:
+INSTRUMENTATION_STATUS: test=runDetoxTests
+INSTRUMENTATION_STATUS_CODE: 1
+
+Jul 24 16:26:47 detox[29307] TRACE: [EXEC_SUCCESS, #12] 07-24 16:26:50.000
+
+Jul 24 16:26:47 detox[29346] TRACE: [SPAWN_KILL] sending SIGINT to: /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell logcat -f /sdcard/162629752_0.log
+Jul 24 16:26:47 detox[29307] DEBUG: [SPAWN_END, #4, cpid=29346] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell "logcat -f /sdcard/162629752_0.log" terminated with SIGINT
+Jul 24 16:26:47 detox[29307] DEBUG: [SPAWN_CMD, #13, cpid=29386] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell "logcat -T \"07-24 16:26:50.000\" --pid=24159 -f /sdcard/162629752_0.log"
+Jul 24 16:26:48 detox[29307] DEBUG: [EXEC_CMD, #14] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell du /sdcard/162629752_0.log
+Jul 24 16:26:48 detox[29307] TRACE: [EXEC_SUCCESS, #14] 0	/sdcard/162629752_0.log
+
+Jul 24 16:27:35 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onHookFailure({
+  error: 'Exceeded timeout of 60000 ms for a hook.\n' +
+    'Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.',
+  hook: 'beforeEach'
+})
+Jul 24 16:27:35 detox[29307] TRACE: [DETOX_AFTER_EACH] failed test: "Login should have a login screen"
+Jul 24 16:27:35 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onTestDone({
+  title: 'should have a login screen',
+  fullName: 'Login should have a login screen',
+  status: 'failed',
+  invocations: 1,
+  timedOut: true
+})
+Jul 24 16:27:35 detox[29307] TRACE: [ARTIFACT_STOP] stopping ADBLogcatRecording
+Jul 24 16:27:35 detox[29307] DEBUG: [EXEC_CMD, #15] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "date +\"%m-%d %T.000\""
+Jul 24 16:27:36 detox[29307] TRACE: [EXEC_SUCCESS, #15] 07-24 16:27:39.000
+
+Jul 24 16:27:36 detox[29386] TRACE: [SPAWN_KILL] sending SIGINT to: /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell logcat -T "07-24 16:26:50.000" --pid=24159 -f /sdcard/162629752_0.log
+Jul 24 16:27:36 detox[29307] DEBUG: [SPAWN_END, #13, cpid=29386] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell "logcat -T \"07-24 16:26:50.000\" --pid=24159 -f /sdcard/162629752_0.log" terminated with SIGINT
+Jul 24 16:27:36 detox[29307] ERROR: [APP_UNREACHABLE] Detox can't seem to connect to the test app(s)!
+
+HINT: 
+
+The test app might have crashed prematurely, or has had trouble setting up the connection.
+Refer to our troubleshooting guide, for full details: https://wix.github.io/Detox/docs/troubleshooting/running-tests#tests-execution-hangs 
+
+
+
+Jul 24 16:27:36 detox[29307] INFO:  [1m[37mLogin: [39m[22m[90mshould have a login screen[39m[90m [[31mFAIL[90m][39m
+Jul 24 16:27:36 detox[29307] INFO:  [1m[37mLogin: [39m[22m[90mshould set username and password and then open dashboard screen[39m
+Jul 24 16:27:36 detox[29307] TRACE: [DETOX_BEFORE_EACH] running test: "Login should set username and password and then open dashboard screen"
+Jul 24 16:27:36 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onTestStart({
+  title: 'should set username and password and then open dashboard screen',
+  fullName: 'Login should set username and password and then open dashboard screen',
+  status: 'running',
+  invocations: 1
+})
+Jul 24 16:27:36 detox[29307] TRACE: [ARTIFACT_START] starting ADBLogcatRecording
+Jul 24 16:27:36 detox[29307] DEBUG: [SPAWN_CMD, #16, cpid=29505] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell "logcat -T \"07-24 16:27:39.000\" --pid=24159 -f /sdcard/162629752_1.log"
+Jul 24 16:27:36 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeTerminateApp({ deviceId: 'R9PRA05C9XX', bundleId: 'com.irriga' })
+Jul 24 16:27:36 detox[29368] TRACE: [SPAWN_KILL] sending SIGINT to: /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell am instrument -w -r -e detoxServer ws://localhost:43077 -e detoxSessionId 935a92d5-fa99-73fa-2e30-ebc15f8c9902 -e debug false com.irriga.test/androidx.test.runner.AndroidJUnitRunner
+Jul 24 16:27:36 detox[29307] DEBUG: [SPAWN_END, #10, cpid=29368] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell am instrument -w -r -e detoxServer ws://localhost:43077 -e detoxSessionId 935a92d5-fa99-73fa-2e30-ebc15f8c9902 -e debug false com.irriga.test/androidx.test.runner.AndroidJUnitRunner terminated with SIGINT
+Jul 24 16:27:36 detox[29307] DEBUG: [EXEC_CMD, #17] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "am force-stop com.irriga"
+Jul 24 16:27:36 detox[29307] DEBUG: [EXEC_CMD, #18] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX reverse --remove tcp:43077
+Jul 24 16:27:36 detox[29307] TRACE: [ARTIFACT_SAVE] saving ADBLogcatRecording to: artifacts/android.att.debug.2022-07-24 14-26-28Z/✗ Login should have a login screen/device.log
+Jul 24 16:27:36 detox[29307] DEBUG: [EXEC_CMD, #19] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX pull "/sdcard/162629752_0.log" "artifacts/android.att.debug.2022-07-24 14-26-28Z/✗ Login should have a login screen/device.log"
+Jul 24 16:27:36 detox[29307] TRACE: [EXEC_SUCCESS, #18] 
+Jul 24 16:27:37 detox[29307] DEBUG: [EXEC_CMD, #20] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell du /sdcard/162629752_1.log
+Jul 24 16:27:37 detox[29307] TRACE: [EXEC_SUCCESS, #17] 
+Jul 24 16:27:37 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onTerminateApp({ deviceId: 'R9PRA05C9XX', bundleId: 'com.irriga' })
+Jul 24 16:27:37 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeLaunchApp({
+  deviceId: 'R9PRA05C9XX',
+  bundleId: 'com.irriga',
+  launchArgs: {
+    detoxServer: 'ws://localhost:43077',
+    detoxSessionId: '935a92d5-fa99-73fa-2e30-ebc15f8c9902'
+  }
+})
+Jul 24 16:27:37 detox[29307] DEBUG: [EXEC_CMD, #21] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "date +\"%m-%d %T.000\""
+Jul 24 16:27:37 detox[29307] TRACE: [EXEC_SUCCESS, #20] 0	/sdcard/162629752_1.log
+
+Jul 24 16:27:37 detox[29307] TRACE: [EXEC_SUCCESS, #21] 07-24 16:27:39.000
+
+Jul 24 16:27:37 detox[29307] DEBUG: [EXEC_CMD, #22] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX reverse tcp:43077 tcp:43077
+Jul 24 16:27:37 detox[29307] TRACE: [EXEC_SUCCESS, #22] 43077
+
+Jul 24 16:27:37 detox[29307] DEBUG: [EXEC_CMD, #23] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "pm list instrumentation"
+Jul 24 16:27:37 detox[29307] TRACE: [EXEC_SUCCESS, #23] instrumentation:com.irriga.test/androidx.test.runner.AndroidJUnitRunner (target=com.irriga)
+
+Jul 24 16:27:37 detox[29307] DEBUG: [SPAWN_CMD, #24, cpid=29535] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell am instrument -w -r -e detoxServer ws://localhost:43077 -e detoxSessionId 935a92d5-fa99-73fa-2e30-ebc15f8c9902 -e debug false com.irriga.test/androidx.test.runner.AndroidJUnitRunner
+Jul 24 16:27:38 detox[29307] DEBUG: [EXEC_CMD, #25] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "ps | grep \"com\.irriga$\""
+Jul 24 16:27:41 detox[29307] TRACE: [SPAWN_STDOUT, #24, cpid=29535] INSTRUMENTATION_STATUS: class=com.irriga.DetoxTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.irriga.DetoxTest:
+INSTRUMENTATION_STATUS: test=runDetoxTests
+INSTRUMENTATION_STATUS_CODE: 1
+
+Jul 24 16:27:45 detox[29307] TRACE: [EXEC_SUCCESS, #19] /sdcard/162629752_0.log: 1 file pulled, 0 skipped. 7.1 MB/s (33546459 bytes in 4.478s)
+
+Jul 24 16:27:45 detox[29307] DEBUG: [EXEC_CMD, #26] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "rm  \"/sdcard/162629752_0.log\""
+Jul 24 16:27:45 detox[29307] TRACE: [EXEC_SUCCESS, #25] u0_a304       24453    599 6481268 143684 0                   0 S com.irriga
+
+Jul 24 16:27:45 detox[24453] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onLaunchApp({
+  deviceId: 'R9PRA05C9XX',
+  bundleId: 'com.irriga',
+  launchArgs: {
+    detoxServer: 'ws://localhost:43077',
+    detoxSessionId: '935a92d5-fa99-73fa-2e30-ebc15f8c9902'
+  },
+  pid: 24453
+})
+Jul 24 16:27:45 detox[29307] TRACE: [ARTIFACT_START] starting ADBLogcatRecording
+Jul 24 16:27:45 detox[29307] TRACE: [ARTIFACT_STOP] stopping ADBLogcatRecording
+Jul 24 16:27:45 detox[29307] DEBUG: [EXEC_CMD, #27] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "date +\"%m-%d %T.000\""
+Jul 24 16:27:45 detox[29307] TRACE: [EXEC_SUCCESS, #26] 
+Jul 24 16:27:45 detox[29307] TRACE: [EXEC_SUCCESS, #27] 07-24 16:27:48.000
+
+Jul 24 16:27:45 detox[29505] TRACE: [SPAWN_KILL] sending SIGINT to: /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell logcat -T "07-24 16:27:39.000" --pid=24159 -f /sdcard/162629752_1.log
+Jul 24 16:27:45 detox[29307] DEBUG: [SPAWN_END, #16, cpid=29505] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell "logcat -T \"07-24 16:27:39.000\" --pid=24159 -f /sdcard/162629752_1.log" terminated with SIGINT
+Jul 24 16:27:45 detox[29307] DEBUG: [SPAWN_CMD, #28, cpid=29616] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell "logcat -T \"07-24 16:27:48.000\" --pid=24453 -f /sdcard/162629752_1.log"
+Jul 24 16:27:46 detox[29307] DEBUG: [EXEC_CMD, #29] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell du /sdcard/162629752_1.log
+Jul 24 16:27:46 detox[29307] TRACE: [EXEC_SUCCESS, #29] 0	/sdcard/162629752_1.log
+
+Jul 24 16:28:36 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onHookFailure({
+  error: 'Exceeded timeout of 60000 ms for a hook.\n' +
+    'Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test.',
+  hook: 'beforeEach'
+})
+Jul 24 16:28:36 detox[29307] TRACE: [DETOX_AFTER_EACH] failed test: "Login should set username and password and then open dashboard screen"
+Jul 24 16:28:36 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onTestDone({
+  title: 'should set username and password and then open dashboard screen',
+  fullName: 'Login should set username and password and then open dashboard screen',
+  status: 'failed',
+  invocations: 1,
+  timedOut: true
+})
+Jul 24 16:28:36 detox[29307] TRACE: [ARTIFACT_STOP] stopping ADBLogcatRecording
+Jul 24 16:28:36 detox[29307] DEBUG: [EXEC_CMD, #30] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "date +\"%m-%d %T.000\""
+Jul 24 16:28:39 detox[29307] TRACE: [EXEC_SUCCESS, #30] 07-24 16:28:41.000
+
+Jul 24 16:28:39 detox[29616] TRACE: [SPAWN_KILL] sending SIGINT to: /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell logcat -T "07-24 16:27:48.000" --pid=24453 -f /sdcard/162629752_1.log
+Jul 24 16:28:39 detox[29307] DEBUG: [SPAWN_END, #28, cpid=29616] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell "logcat -T \"07-24 16:27:48.000\" --pid=24453 -f /sdcard/162629752_1.log" terminated with SIGINT
+Jul 24 16:28:39 detox[29307] ERROR: [APP_UNREACHABLE] Detox can't seem to connect to the test app(s)!
+
+HINT: 
+
+The test app might have crashed prematurely, or has had trouble setting up the connection.
+Refer to our troubleshooting guide, for full details: https://wix.github.io/Detox/docs/troubleshooting/running-tests#tests-execution-hangs 
+
+
+
+Jul 24 16:28:39 detox[29307] INFO:  [1m[37mLogin: [39m[22m[90mshould set username and password and then open dashboard screen[39m[90m [[31mFAIL[90m][39m
+Jul 24 16:28:39 Login[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeFinish({ name: 'Login' })
+Jul 24 16:28:39 ROOT_DESCRIBE_BLOCK[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onRunDescribeFinish({ name: 'ROOT_DESCRIBE_BLOCK' })
+Jul 24 16:28:39 detox[29307] TRACE: [ARTIFACTS_LIFECYCLE] artifactsManager.onBeforeCleanup()
+Jul 24 16:28:39 detox[29307] TRACE: [ARTIFACT_SAVE] saving ADBLogcatRecording to: artifacts/android.att.debug.2022-07-24 14-26-28Z/✗ Login should set username and password and then open dashboard screen/device.log
+Jul 24 16:28:39 detox[29307] DEBUG: [EXEC_CMD, #31] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX pull "/sdcard/162629752_1.log" "artifacts/android.att.debug.2022-07-24 14-26-28Z/✗ Login should set username and password and then open dashboard screen/device.log"
+Jul 24 16:28:39 detox[29307] TRACE: [EXEC_SUCCESS, #31] /sdcard/162629752_1.log: 1 file pulled, 0 skipped. 1.9 MB/s (28416 bytes in 0.014s)
+
+Jul 24 16:28:39 detox[29307] DEBUG: [EXEC_CMD, #32] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX shell "rm  \"/sdcard/162629752_1.log\""
+Jul 24 16:28:39 detox[29307] TRACE: [EXEC_SUCCESS, #32] 
+Jul 24 16:28:39 detox[29307] TRACE: [ARTIFACT_START] starting FileArtifact
+Jul 24 16:28:39 detox[29307] TRACE: [ARTIFACT_STOP] stopping FileArtifact
+Jul 24 16:28:39 detox[29307] TRACE: [ARTIFACT_SAVE] saving FileArtifact to: artifacts/android.att.debug.2022-07-24 14-26-28Z/detox_pid_29307.json.log { append: true }
+Jul 24 16:28:39 detox[29307] TRACE: [ARTIFACT_START] starting FileArtifact
+Jul 24 16:28:39 detox[29307] TRACE: [ARTIFACT_STOP] stopping FileArtifact
+Jul 24 16:28:39 detox[29307] TRACE: [ARTIFACT_SAVE] saving FileArtifact to: artifacts/android.att.debug.2022-07-24 14-26-28Z/detox_pid_29307.log { append: true }
+Jul 24 16:28:39 detox[29307] DEBUG: [MOVE_FILE] moving "/tmp/7fd29b42-104e-45c1-a68e-3473b9dca0f0.detox.log" to artifacts/android.att.debug.2022-07-24 14-26-28Z/detox_pid_29307.json.log
+Jul 24 16:28:39 detox[29307] DEBUG: [MOVE_FILE] moving "/tmp/a2d0e274-4606-420b-b861-c608446be71c.detox.log" to artifacts/android.att.debug.2022-07-24 14-26-28Z/detox_pid_29307.log
+Jul 24 16:28:39 detox[29307] ERROR: [APP_UNREACHABLE] Detox can't seem to connect to the test app(s)!
+
+HINT: 
+
+The test app might have crashed prematurely, or has had trouble setting up the connection.
+Refer to our troubleshooting guide, for full details: https://wix.github.io/Detox/docs/troubleshooting/running-tests#tests-execution-hangs 
+
+
+
+Jul 24 16:28:39 detox[29307] TRACE: [SESSION_TORN] tester exited session 935a92d5-fa99-73fa-2e30-ebc15f8c9902
+Jul 24 16:28:39 detox[29535] TRACE: [SPAWN_KILL] sending SIGINT to: /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell am instrument -w -r -e detoxServer ws://localhost:43077 -e detoxSessionId 935a92d5-fa99-73fa-2e30-ebc15f8c9902 -e debug false com.irriga.test/androidx.test.runner.AndroidJUnitRunner
+Jul 24 16:28:39 detox[29307] DEBUG: [SPAWN_END, #24, cpid=29535] /home/sutuioncode/Android/platform-tools/adb -s R9PRA05C9XX shell am instrument -w -r -e detoxServer ws://localhost:43077 -e detoxSessionId 935a92d5-fa99-73fa-2e30-ebc15f8c9902 -e debug false com.irriga.test/androidx.test.runner.AndroidJUnitRunner terminated with SIGINT
+Jul 24 16:28:39 detox[29307] DEBUG: [EXEC_CMD, #33] "/home/sutuioncode/Android/platform-tools/adb" -s R9PRA05C9XX reverse --remove tcp:43077
+Jul 24 16:28:39 detox[29307] DEBUG: [WSS_CLOSE] Detox server has been closed gracefully
+Jul 24 16:28:39 detox[29307] TRACE: [EXEC_SUCCESS, #33] 

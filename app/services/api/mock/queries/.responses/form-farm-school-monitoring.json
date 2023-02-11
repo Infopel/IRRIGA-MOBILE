@@ -1,0 +1,504 @@
+{
+  "form": [
+    {
+      "id": "64e03d11-77ee-48a1-a7c8-c9e44e15c48b",
+      "name": "Formulário de Monitoria da Escola Machamba",
+      "fieldset": [
+        {
+          "id": 9,
+          "label": "Associar Formando",
+          "description": "Associar Formando",
+          "controls": [
+            {
+              "id": 28,
+              "label": "Pesquisa Nome ",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Pesquisa Por Nome",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 29,
+              "label": "Pesquisa Código",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Pesquisa por Código",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "label": "Cadastrar Formacao",
+          "description": "Cadastrar Formacao",
+          "controls": [
+            {
+              "id": 39,
+              "label": "Categoria de formação",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "dropdown",
+              "filterWithDropdown": null,
+              "placeholder": "Categoria de Formação",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 40,
+              "label": "Designação da formação",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Designação da Formação",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 41,
+              "label": "Data de início",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "filterWithDropdown": null,
+              "placeholder": "Data de Início",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 42,
+              "label": "Data de término",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "filterWithDropdown": null,
+              "placeholder": "Data de término",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "label": "Distribuição de insumo",
+          "description": "Distribuição de insumo",
+          "controls": [
+            {
+              "id": 55,
+              "label": "Cultura",
+              "dependOn": null,
+              "verifyOn": 46817782,
+              "type": "chip",
+              "filterWithDropdown": null,
+              "placeholder": "Culturas",
+              "value": null,
+              "options": [
+                {
+                  "id": 1,
+                  "name": "Repolho"
+                },
+                {
+                  "id": 2,
+                  "name": "Cebola"
+                },
+                {
+                  "id": 3,
+                  "name": "Tomate"
+                },
+                {
+                  "id": 4,
+                  "name": "Couve"
+                },
+                {
+                  "id": 5,
+                  "name": "Cenoura"
+                },
+                {
+                  "id": 6,
+                  "name": "Pepino"
+                },
+                {
+                  "id": 7,
+                  "name": "Pimento"
+                },
+                {
+                  "id": 8,
+                  "name": "Quiabo"
+                },
+                {
+                  "id": 9,
+                  "name": "Piripiri"
+                },
+                {
+                  "id": 10,
+                  "name": "Milho Bebe"
+                },
+                {
+                  "id": 11,
+                  "name": "Batata"
+                },
+                {
+                  "id": 12,
+                  "name": "Batata Reno"
+                },
+                {
+                  "id": 13,
+                  "name": "Maçaroca"
+                },
+                {
+                  "id": 14,
+                  "name": "Milho"
+                },
+                {
+                  "id": 15,
+                  "name": "Mapira"
+                },
+                {
+                  "id": 16,
+                  "name": "Meixoeira"
+                },
+                {
+                  "id": 17,
+                  "name": "Feijão Manteiga"
+                },
+                {
+                  "id": 18,
+                  "name": "Soja"
+                },
+                {
+                  "id": 19,
+                  "name": "Outra"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 56,
+              "label": "Insumo",
+              "dependOn": null,
+              "verifyOn": 59086501,
+              "type": "dropdown",
+              "filterWithDropdown": null,
+              "placeholder": "Selecione o Insumo",
+              "value": null,
+              "options": [
+                {
+                  "id": 82,
+                  "name": "Fertilizante"
+                },
+                {
+                  "id": 83,
+                  "name": "Pesticidas"
+                },
+                {
+                  "id": 84,
+                  "name": "Adubos"
+                },
+                {
+                  "id": 85,
+                  "name": "Irrigação"
+                },
+                {
+                  "id": 86,
+                  "name": "Sementes melhoradas"
+                },
+                {
+                  "id": 87,
+                  "name": "Outro Insumo"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 57,
+              "label": "Descrição",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Descrição",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 58,
+              "label": "Quantidade recebida",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Quantidade Recebida",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 59,
+              "label": "Unidade",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "radio",
+              "filterWithDropdown": null,
+              "placeholder": "Unidade",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 60,
+              "label": "Data de\r\nrecepção",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "filterWithDropdown": null,
+              "placeholder": "Data de Recepção",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 61,
+              "label": "Observações",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Observações",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "label": "Monitoria de rendimentos",
+          "description": "Monitoria de rendimentos",
+          "controls": [
+            {
+              "id": 62,
+              "label": "Area\r\ncolhida\r\n",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Area Colhida",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 63,
+              "label": "Quantidade colhida\r\n(kgs)",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Quantidade Colhida",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 64,
+              "label": "Rendimento\r\npor hectare",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Rendimento",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "label": "Monitoria de\r\ncomercialização",
+          "description": "Monitoria de\r\ncomercialização",
+          "controls": [
+            {
+              "id": 65,
+              "label": "Quantidade comercializada",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Quantidade comercializada",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 66,
+              "label": "Preço por Kg",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Preço",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 67,
+              "label": "Percentagem Comercializada",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Percentagem Comercializada",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 68,
+              "label": "Valor\r\ncomercializada",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Valor\r\ncomercializada",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 69,
+              "label": "Destino da quantidade não comercializada",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "radio",
+              "filterWithDropdown": null,
+              "placeholder": "Destino da quantidade não comercializada",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

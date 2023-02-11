@@ -1,0 +1,1 @@
+jest.mock("../app/services/storage/adapter")

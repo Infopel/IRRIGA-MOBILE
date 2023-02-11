@@ -1,0 +1,150 @@
+{
+  "form": [
+    {
+      "id": "6daf4ee4-abf2-4ff5-8949-39cfbec4a1ed",
+      "name": "Formulário Monitoria de Construção de Regadios",
+      "fieldset": [
+        {
+          "id": 37,
+          "label": "Monitoria de Construção de Regadios",
+          "description": "Monitoria de Construção de Regadios",
+          "controls": [
+            {
+              "id": 147,
+              "label": "Fase",
+              "dependOn": null,
+              "verifyOn": 336899,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Seleccione",
+              "value": null,
+              "options": [
+                {
+                  "id": 99,
+                  "name": "consignação"
+                },
+                {
+                  "id": 100,
+                  "name": "inicio de obra"
+                },
+                {
+                  "id": 101,
+                  "name": "monitoria do progresso da obra"
+                },
+                {
+                  "id": 102,
+                  "name": "entrega provisória"
+                },
+                {
+                  "id": 103,
+                  "name": "entrega definitiva"
+                },
+                {
+                  "id": 104,
+                  "name": "garantia"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 148,
+              "label": "Percentagem de execução física",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 100,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 149,
+              "label": "Descrição das actividades realizadas",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Descrição das actividades",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 100,
+                "contentType": "textarea"
+              }
+            },
+            {
+              "id": 150,
+              "label": "Constrangimentos",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Constrangimentos",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 100,
+                "contentType": "textarea"
+              }
+            },
+            {
+              "id": 151,
+              "label": "Motivos de atraso",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Motivo de atraso",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 100,
+                "contentType": "textarea"
+              }
+            },
+            {
+              "id": 152,
+              "label": "Fotos ",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 10,
+                "contentType": "image/*"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

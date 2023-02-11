@@ -1,0 +1,368 @@
+{
+  "form": [
+    {
+      "id": "c1a69dd8-ee27-4f23-a6a3-27597b10f37c",
+      "name": "Formulário de Formação",
+      "fieldset": [
+        {
+          "id": 36,
+          "label": "Formação",
+          "description": "Formação",
+          "controls": [
+            {
+              "id": 31,
+              "label": "Categoria de formação",
+              "dependOn": null,
+              "verifyOn": 35198030,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar Categoria",
+              "value": null,
+              "options": [
+                {
+                  "id": 30,
+                  "name": "Produção"
+                },
+                {
+                  "id": 31,
+                  "name": "Comercialização"
+                },
+                {
+                  "id": 32,
+                  "name": "Gestão de regadios"
+                },
+                {
+                  "id": 33,
+                  "name": "Salvaguardas"
+                },
+                {
+                  "id": 34,
+                  "name": " PITTA"
+                },
+                {
+                  "id": 35,
+                  "name": " EMC"
+                },
+                {
+                  "id": 36,
+                  "name": "Vitrina tecnológica"
+                },
+                {
+                  "id": 37,
+                  "name": "Irrigação"
+                },
+                {
+                  "id": 38,
+                  "name": "CDR"
+                },
+                {
+                  "id": 45,
+                  "name": "Outra"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 34,
+              "label": "Regadio",
+              "dependOn": null,
+              "verifyOn": 60130680,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Regadio",
+              "value": null,
+              "options": [
+                {
+                  "id": 4,
+                  "name": "Regadio de Namanhacha"
+                },
+                {
+                  "id": 3,
+                  "name": "Bruno e Filhos"
+                },
+                {
+                  "id": 2,
+                  "name": "Khensa"
+                },
+                {
+                  "id": 19,
+                  "name": "Kubatana Pa Rubudiriro\t"
+                },
+                {
+                  "id": 22,
+                  "name": "Munharari"
+                },
+                {
+                  "id": 20,
+                  "name": "7 Abril I"
+                },
+                {
+                  "id": 4,
+                  "name": "Regadio de Namanhacha"
+                },
+                {
+                  "id": 28,
+                  "name": "Kukuga Kusanga"
+                },
+                {
+                  "id": 32,
+                  "name": "Chicumbua I"
+                },
+                {
+                  "id": 33,
+                  "name": "Chicumbua II"
+                },
+                {
+                  "id": 31,
+                  "name": "Kupedja Urombo"
+                },
+                {
+                  "id": 13,
+                  "name": "Simukai Chirodzo"
+                },
+                {
+                  "id": 30,
+                  "name": "Move"
+                },
+                {
+                  "id": 18,
+                  "name": "Piscina"
+                },
+                {
+                  "id": 21,
+                  "name": "Campo IV"
+                },
+                {
+                  "id": 14,
+                  "name": "Mziva"
+                },
+                {
+                  "id": 14,
+                  "name": "Nharari Muihone"
+                },
+                {
+                  "id": 24,
+                  "name": "Nhaumbwe"
+                },
+                {
+                  "id": 27,
+                  "name": "Badza Ndinambo"
+                },
+                {
+                  "id": 25,
+                  "name": "7 Abril II"
+                },
+                {
+                  "id": 43,
+                  "name": "Intabo"
+                },
+                {
+                  "id": 42,
+                  "name": "Munda Munda"
+                },
+                {
+                  "id": 34,
+                  "name": "Acaboco"
+                },
+                {
+                  "id": 16,
+                  "name": "Mukai Kwaedza"
+                },
+                {
+                  "id": 8,
+                  "name": "Murroboiana Chinha\t"
+                },
+                {
+                  "id": 11,
+                  "name": "Munda Ndiche"
+                },
+                {
+                  "id": 15,
+                  "name": "Kubatana Matsenemb CI"
+                },
+                {
+                  "id": 39,
+                  "name": "Chiverano"
+                },
+                {
+                  "id": 37,
+                  "name": "Moriri (Aremo e 3 Fev)"
+                },
+                {
+                  "id": 23,
+                  "name": "Nhamadembe"
+                },
+                {
+                  "id": 26,
+                  "name": "Chiringadzhou"
+                },
+                {
+                  "id": 3,
+                  "name": "Bruno e Filhos"
+                },
+                {
+                  "id": 10,
+                  "name": "Dzidzai Muhuvo"
+                },
+                {
+                  "id": 36,
+                  "name": "Muda Mucequesse"
+                },
+                {
+                  "id": 2,
+                  "name": "Khensa"
+                },
+                {
+                  "id": 5,
+                  "name": "Kuguta Ibadza"
+                },
+                {
+                  "id": 38,
+                  "name": "Limane"
+                },
+                {
+                  "id": 17,
+                  "name": "Muchue ye Mpondoro"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 35,
+              "label": "Associação",
+              "dependOn": null,
+              "verifyOn": 4896737,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Associação",
+              "value": null,
+              "options": [
+                {
+                  "id": 1,
+                  "name": "Associação de Namanhacha"
+                },
+                {
+                  "id": 2,
+                  "name": "Associação de Moamba"
+                },
+                {
+                  "id": 3,
+                  "name": "Associação Khensa"
+                },
+                {
+                  "id": 12,
+                  "name": "Associação Limani"
+                },
+                {
+                  "id": 11,
+                  "name": "Associação Chiverano"
+                },
+                {
+                  "id": 10,
+                  "name": "Associação  Compo IV"
+                },
+                {
+                  "id": 9,
+                  "name": "Associação 7 de Abril-I"
+                },
+                {
+                  "id": 8,
+                  "name": "Associação Paz"
+                },
+                {
+                  "id": 7,
+                  "name": "Associacao Mziva"
+                },
+                {
+                  "id": 6,
+                  "name": "Associacao Nhamanembe"
+                },
+                {
+                  "id": 5,
+                  "name": "Associacao de Catandica"
+                },
+                {
+                  "id": 4,
+                  "name": "Associação 7 de Abril-II"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 36,
+              "label": "Designação da formação",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Designação da formação",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 37,
+              "label": "Data de início",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data de início",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 38,
+              "label": "Data de término",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data de término",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

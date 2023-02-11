@@ -1,0 +1,500 @@
+{
+	"form": [
+		{
+			"id": "a81ca87b-325f-48aa-9a17-aea7598e23ed",
+			"name": "Formulário de Intensificação de Regadios",
+			"fieldset": [
+				{
+					"id": 56,
+					"label": "Intensificação de Regadios",
+					"description": "Intensificação de Regadios",
+					"controls": [
+						{
+							"id": 260,
+							"label": "Culturas de Intensificação de Regadios",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "form",
+							"labelField": 251,
+							"filterWithDropdown": null,
+							"placeholder": null,
+							"value": "430138ae-9929-4f50-92f5-15ea352996d5",
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 259,
+							"label": "Fotos",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "capture",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": null,
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 2,
+								"contentType": "image/*"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "430138ae-9929-4f50-92f5-15ea352996d5",
+			"name": "Culturas de Intensificacao de regadios",
+			"fieldset": [
+				{
+					"id": 57,
+					"label": "Culturas de Intensificacao de regadios",
+					"description": "Culturas de Intensificacao de regadios",
+					"controls": [
+						{
+							"id": 251,
+							"label": "Area agregada por cultura",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Area agregada",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 252,
+							"label": "Numero de beneficiarios praticantes da cultura ",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "nrBeneficiarios",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": "number"
+							}
+						},
+						{
+							"id": 261,
+							"label": "Data de sementeira",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "date",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 262,
+							"label": "Data de Colheita",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "date",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 253,
+							"label": "Usaram pesticida?",
+							"dependOn": null,
+							"verifyOn": 27673018,
+							"type": "radio",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar",
+							"value": null,
+							"options": [
+								{
+									"id": 215,
+									"name": "Sim"
+								},
+								{
+									"id": 216,
+									"name": "Nao"
+								}
+							],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 263,
+							"label": "Qual?",
+							"dependOn": "253/215",
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Qual?",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 254,
+							"label": "Usaram fertilizante?",
+							"dependOn": null,
+							"verifyOn": 40043316,
+							"type": "radio",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar",
+							"value": null,
+							"options": [
+								{
+									"id": 218,
+									"name": "Sim"
+								},
+								{
+									"id": 219,
+									"name": "Nao"
+								}
+							],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 264,
+							"label": "Qual?",
+							"dependOn": "254/218",
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Qual?",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 255,
+							"label": "Efectuou-se a rega? ",
+							"dependOn": null,
+							"verifyOn": 28600876,
+							"type": "radio",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar",
+							"value": null,
+							"options": [
+								{
+									"id": 220,
+									"name": "Sim"
+								},
+								{
+									"id": 221,
+									"name": "Nao"
+								}
+							],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 265,
+							"label": "Area Irrigada",
+							"dependOn": "255/220",
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "0",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": "number"
+							}
+						},
+						{
+							"id": 266,
+							"label": "Normalmente Rega a Cultura?",
+							"dependOn": "255/221",
+							"verifyOn": 0,
+							"type": "radio",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "0",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 267,
+							"label": "Comentario",
+							"dependOn": "255/221",
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Comentario",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 256,
+							"label": "Receberam alguma formação? ",
+							"dependOn": null,
+							"verifyOn": 10673574,
+							"type": "radio",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar",
+							"value": null,
+							"options": [
+								{
+									"id": 222,
+									"name": "Sim"
+								},
+								{
+									"id": 223,
+									"name": "Nao"
+								}
+							],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 268,
+							"label": "Formação",
+							"dependOn": "256/222",
+							"verifyOn": 65263205,
+							"type": "chip",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar",
+							"value": null,
+							"options": [
+								{
+									"id": 228,
+									"name": "PITTA"
+								},
+								{
+									"id": 229,
+									"name": "Escolas sem paredes"
+								},
+								{
+									"id": 230,
+									"name": "Vitrine tecnologica"
+								},
+								{
+									"id": 231,
+									"name": "CDR"
+								},
+								{
+									"id": 232,
+									"name": "EMC"
+								}
+							],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 257,
+							"label": "Tiveram contacto com algum extensionista? ",
+							"dependOn": null,
+							"verifyOn": 59876079,
+							"type": "radio",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar",
+							"value": null,
+							"options": [
+								{
+									"id": 224,
+									"name": "Sim"
+								},
+								{
+									"id": 225,
+									"name": "Nao"
+								}
+							],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 270,
+							"label": "Tipo de Contacto",
+							"dependOn": "257/224",
+							"verifyOn": 55110534,
+							"type": "chip",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar",
+							"value": null,
+							"options": [
+								{
+									"id": 233,
+									"name": "Maneio de Culturas"
+								},
+								{
+									"id": 234,
+									"name": "Comercialização"
+								},
+								{
+									"id": 235,
+									"name": "Preparação de Campos"
+								},
+								{
+									"id": 236,
+									"name": "Outro"
+								}
+							],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 274,
+							"label": "Outro",
+							"dependOn": "270/236",
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Outro",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 258,
+							"label": "Finalidade da produção",
+							"dependOn": null,
+							"verifyOn": 53474862,
+							"type": "dropdown",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar",
+							"value": null,
+							"options": [
+								{
+									"id": 226,
+									"name": "consumo proprio"
+								},
+								{
+									"id": 227,
+									"name": "comercialização"
+								}
+							],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 272,
+							"label": "Comentario da finalidade da produção",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Comentario",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

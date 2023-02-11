@@ -1,0 +1,29 @@
+import * as React from "react"
+import { StyleProp, TextStyle, View, ViewStyle } from "react-native"
+import { color, typography } from "../../theme"
+import { Text } from "../../components"
+import {<%= props.pascalCaseName %>Styles as styles} from "./<%= props.kebabCaseName %>.styles"
+
+export interface <%= props.pascalCaseName %>Props {
+  /**
+   * An optional style override useful for padding & margin.
+   */
+  style?: StyleProp<ViewStyle>
+}
+
+/**
+ * Describe your component here
+ */
+export const <%= props.pascalCaseName %> = function <%= props.pascalCaseName %>(props: <%= props.pascalCaseName %>Props) {
+  const { style } = props
+  const containerStyle = {
+    ...styles.container,
+    ...(style && typeof style === "object" ? style : {}),
+  }
+
+  return (
+    <View style={containerStyle}>
+      <Text style={styles.text}>Hello</Text>
+    </View>
+  )
+}

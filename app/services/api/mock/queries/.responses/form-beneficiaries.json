@@ -1,0 +1,1576 @@
+{
+  "form": [
+    {
+      "id": "abf1cb25-5ed6-47c2-9219-d414c373663b",
+      "name": "Cadastro de Beneficiário",
+      "fieldset": [
+
+        {
+          "id": 2,
+          "label": "Documentos de Identificação",
+          "dependOn": null,
+          "description": "Documentos de Identificação",
+          "controls": [
+            {
+              "id": 6,
+              "label": "Tipo de Documento",
+              "dependOn": null,
+              "verifyOn": 22062524,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Tipo de Documento",
+              "value": null,
+              "options": [
+                {
+                  "id": 3,
+                  "name": "Bilhete de Identidade"
+                },
+                {
+                  "id": 4,
+                  "name": "Declaração Do Bairro"
+                },
+                {
+                  "id": 5,
+                  "name": "Passaporte"
+                },
+                {
+                  "id": 247,
+                  "name": "D.I.R.E"
+                },
+                {
+                  "id": 350,
+                  "name": "Cédula pessoal"
+                },
+                {
+                  "id": 351,
+                  "name": "Cartão de eleitor"
+                },
+                {
+                  "id": 352,
+                  "name": "Cartão do partido"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 7,
+              "label": "Número de Documento de Identificação",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Número",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 8,
+              "label": "Adicionar Documento",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 2,
+                "contentType": "image/*"
+              }
+            },
+            {
+              "id": 287,
+              "label": "Adicionar Documento Verso",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 2,
+                "contentType": "image/*"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Agregado Familiar",
+          "dependOn": null,
+          "description": "Agregado Familiar",
+          "controls": [
+            {
+              "id": 10,
+              "label": "Número de Homens no Agregado Familiar",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Número de homens",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 11,
+              "label": "Número de Mulheres no Agregado Familiar",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Número de mulheres",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 12,
+              "label": "Número de Trabalhadores Homens",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Número de trabalhadores",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 13,
+              "label": "Número de Trabalhadores Mulheres",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Número de trabalhadores",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Localização geográfica",
+          "dependOn": null,
+          "description": "Localização geográfica",
+          "controls": [
+            {
+              "id": 14,
+              "label": "Província",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar Província",
+              "value": null,
+              "options": [
+                {
+                  "id": 1,
+                  "name": "Niassa"
+                },
+                {
+                  "id": 2,
+                  "name": "Cabo-Delgado"
+                },
+                {
+                  "id": 3,
+                  "name": "Nampula"
+                },
+                {
+                  "id": 4,
+                  "name": "Zambézia"
+                },
+                {
+                  "id": 5,
+                  "name": "Tete"
+                },
+                {
+                  "id": 6,
+                  "name": "Manica"
+                },
+                {
+                  "id": 7,
+                  "name": "Sofala"
+                },
+                {
+                  "id": 8,
+                  "name": "Inhambane"
+                },
+                {
+                  "id": 9,
+                  "name": "Gaza"
+                },
+                {
+                  "id": 10,
+                  "name": "Maputo-Provincia"
+                },
+                {
+                  "id": 11,
+                  "name": "Maputo-Cidade"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 15,
+              "label": "Distrito",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 14,
+              "filterWithDropdown": "DISTRICT_BY_PROVINCE",
+              "placeholder": "Selecionar Distrito",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 16,
+              "label": "Posto Administrativo",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Posto administrativo",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 17,
+              "label": "Localidade",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Localidade",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 18,
+              "label": "Bloco/Lado",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Bloco",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 19,
+              "label": "Local de Residência",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Local",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "label": "Culturas produzidas",
+          "dependOn": null,
+          "description": "Culturas produzidas",
+          "controls": [
+            {
+              "id": 21,
+              "label": "Regadio",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 14,
+              "filterWithDropdown": "REGADIO_POR_PROVINCIA",
+              "placeholder": "Regadio",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 20,
+              "label": "Associação",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 21,
+              "filterWithDropdown": "ASSOCIACAO_POR_REGADIO",
+              "placeholder": "Associação",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 654,
+              "label": "Culturas Primárias",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 215,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": "431a70ee-4241-49a3-9059-e528ddbd186b",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 655,
+              "label": "Culturas Secundárias",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 215,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": "d6189313-f7ae-4f1f-936f-5f0e4ac9a434",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "label": "Coordenadas geográficas",
+          "dependOn": null,
+          "description": "Coordenadas geográficas",
+          "controls": [
+            {
+              "id": 24,
+              "label": "Coordenadas Geográficas",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "location",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Coordenadas geográficas",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "label": "Foto de Beneficiário",
+          "dependOn": null,
+          "description": "Foto de Beneficiario",
+          "controls": [
+            {
+              "id": 9,
+              "label": "Imagem Beneficiário",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 1,
+                "contentType": "image/*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac67b3d8-d52d-4bd8-8564-0729eaea531d",
+      "name": "Formulário de Culturas",
+      "fieldset": [
+        {
+          "id": 7,
+          "label": "Cadastro de Culturas",
+          "dependOn": null,
+          "description": "Culturas Produzidas",
+          "controls": [
+            {
+              "id": 233,
+              "label": "Culturas",
+              "dependOn": null,
+              "verifyOn": 9239691,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Culturas",
+              "value": null,
+              "options": [
+                {
+                  "id": 1,
+                  "name": "Repolho"
+                },
+                {
+                  "id": 2,
+                  "name": "Cebola"
+                },
+                {
+                  "id": 20,
+                  "name": "Arroz"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 493,
+              "label": "Culturas",
+              "dependOn": null,
+              "verifyOn": 21726989,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Culturas",
+              "value": null,
+              "options": [
+                {
+                  "id": 1,
+                  "name": "Repolho"
+                },
+                {
+                  "id": 2,
+                  "name": "Cebola"
+                },
+                {
+                  "id": 20,
+                  "name": "Arroz"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 620,
+              "label": "Área da  cultura",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Área agregada por cultura",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 236,
+              "label": "Area Cultivada (HA)",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 237,
+              "label": "Rendimento da Cultura (HA)",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Area",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "89e6e6c3-d1b5-4d9e-9e8c-00bce95fbeb0",
+      "name": "Cultura",
+      "fieldset": [
+        {
+          "id": 98,
+          "label": "Cultura",
+          "dependOn": null,
+          "description": "Cultura",
+          "controls": [
+            {
+              "id": 491,
+              "label": "Cultura Principal",
+              "dependOn": null,
+              "verifyOn": 9191726,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Culturas",
+              "value": null,
+              "options": [
+                {
+                  "id": 1,
+                  "name": "Repolho"
+                },
+                {
+                  "id": 2,
+                  "name": "Cebola"
+                },
+                {
+                  "id": 20,
+                  "name": "Arroz"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 619,
+              "label": "Área da  cultura",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Área agregada por cultura",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 705,
+              "label": "Foto da  Cultura Principal",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 2,
+                "contentType": "image/*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "57ebc7f0-7fb0-408b-898a-fe86104e41fd",
+      "name": "Pessoas de contacto da papel",
+      "fieldset": [
+        {
+          "id": 45,
+          "label": "Pessoas de contacto da papel",
+          "dependOn": null,
+          "description": "Pessoas de contacto da #papel",
+          "controls": [
+            {
+              "id": 139,
+              "label": "Nome",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nome",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 140,
+              "label": "Telefone",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Telefone",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "tel"
+              }
+            },
+            {
+              "id": 141,
+              "label": "Email",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Email",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d6189313-f7ae-4f1f-936f-5f0e4ac9a434",
+      "name": "Culturas Secundarias",
+      "fieldset": [
+        {
+          "id": 112,
+          "label": "Culturas Secundárias",
+          "dependOn": null,
+          "description": "Culturas Secundárias",
+          "controls": [
+            {
+              "id": 652,
+              "label": "Cultura Secundária",
+              "dependOn": null,
+              "verifyOn": 48529757,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Culturas",
+              "value": null,
+              "options": [
+                {
+                  "id": 3,
+                  "name": "Tomate"
+                },
+                {
+                  "id": 4,
+                  "name": "Couve"
+                },
+                {
+                  "id": 5,
+                  "name": "Cenoura"
+                },
+                {
+                  "id": 6,
+                  "name": "Pepino"
+                },
+                {
+                  "id": 7,
+                  "name": "Pimento"
+                },
+                {
+                  "id": 8,
+                  "name": "Quiabo"
+                },
+                {
+                  "id": 9,
+                  "name": "Piripiri"
+                },
+                {
+                  "id": 10,
+                  "name": "Milho Bebe"
+                },
+                {
+                  "id": 11,
+                  "name": "Batata"
+                },
+                {
+                  "id": 12,
+                  "name": "Batata Reno"
+                },
+                {
+                  "id": 13,
+                  "name": "Maçaroca"
+                },
+                {
+                  "id": 14,
+                  "name": "Milho"
+                },
+                {
+                  "id": 15,
+                  "name": "Mapira"
+                },
+                {
+                  "id": 16,
+                  "name": "Meixoeira"
+                },
+                {
+                  "id": 17,
+                  "name": "Feijão Manteiga"
+                },
+                {
+                  "id": 18,
+                  "name": "Soja"
+                },
+                {
+                  "id": 19,
+                  "name": "Outra"
+                }
+              ],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 656,
+              "label": "Área da  cultura",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Área agregada por cultura",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 692,
+              "label": "Foto da Cultura Secundária",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 2,
+                "contentType": "image/*"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "58d1f271-3c04-4fff-bb83-df3e080f70f8",
+      "name": "Pessoa de contacto de Papel",
+      "fieldset": [
+        {
+          "id": 113,
+          "label": "Pessoa de contacto da papel",
+          "dependOn": null,
+          "description": "Pessoas de contacto da #papel",
+          "controls": [
+            {
+              "id": 660,
+              "label": "Nome",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nome",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 661,
+              "label": "Telefone",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Telefone",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "tel"
+              }
+            },
+            {
+              "id": 662,
+              "label": "Email",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Email",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dacf8c53-600e-42dc-a1f7-901bf5629ba3",
+      "name": "projeccao",
+      "fieldset": [
+        {
+          "id": 115,
+          "label": "Projecção",
+          "dependOn": null,
+          "description": "Projecção",
+          "controls": [
+            {
+              "id": 665,
+              "label": "Número do contrato",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "contacto de papel",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "paper-entity-code"
+              }
+            },
+            {
+              "id": 667,
+              "label": "Nome da entidade que projectou",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Entidade de papel",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 666,
+              "label": "Pessoas de Contacto",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "58d1f271-3c04-4fff-bb83-df3e080f70f8",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 670,
+              "label": "Data de Início de Projecção",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 671,
+              "label": "Data de Término de Projecção",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 668,
+              "label": "Data de Início de Execução",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 669,
+              "label": "Data de Término Execução",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 664,
+              "label": "Valor do contrato",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "money"
+              }
+            },
+            {
+              "id": 663,
+              "label": "Moeda de Contrato",
+              "dependOn": null,
+              "verifyOn": 23299566,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar",
+              "value": null,
+              "options": [
+                {
+                  "id": 495,
+                  "name": "Metical"
+                },
+                {
+                  "id": 496,
+                  "name": "Dolar"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3348a2e-69b5-44d8-abb7-7edeb00f29ec",
+      "name": "Construcao",
+      "fieldset": [
+        {
+          "id": 116,
+          "label": "Construção",
+          "dependOn": null,
+          "description": "Construção",
+          "controls": [
+            {
+              "id": 677,
+              "label": "Número do contrato",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "contacto de papel",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": "paper-entity-code"
+              }
+            },
+            {
+              "id": 717,
+              "label": "Nome do Construtor",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nome do Construtor",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            },
+            {
+              "id": 678,
+              "label": "Pessoa de papel",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "null",
+              "value": "d9ba9658-a21b-4aa0-a4e0-6a1d6229a3f1",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 682,
+              "label": "Data de Início de Contracto",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 683,
+              "label": "Data de Término de Contracto",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 680,
+              "label": "Data de Início de Execução",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 681,
+              "label": "Data de Término Execução",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "date",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Data",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 676,
+              "label": "Valor do contrato",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "money"
+              }
+            },
+            {
+              "id": 675,
+              "label": "Moeda de Contrato",
+              "dependOn": null,
+              "verifyOn": 27991682,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar",
+              "value": null,
+              "options": [
+                {
+                  "id": 497,
+                  "name": "Metical"
+                },
+                {
+                  "id": 498,
+                  "name": "Dolar"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 1,
+                "max": 0,
+                "contentType": "null"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d9ba9658-a21b-4aa0-a4e0-6a1d6229a3f1",
+      "name": "pessoas de contactos papeis",
+      "fieldset": [
+        {
+          "id": 117,
+          "label": "pessoas de Papel",
+          "dependOn": null,
+          "description": "Pessoas de Papel",
+          "controls": [
+            {
+              "id": 672,
+              "label": "Nome",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Nome",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 673,
+              "label": "Telefone",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Telefone",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "tel"
+              }
+            },
+            {
+              "id": 674,
+              "label": "Email",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Email",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "431a70ee-4241-49a3-9059-e528ddbd186b",
+      "name": "Culturas produzidas",
+      "fieldset": [
+        {
+          "id": 51,
+          "label": "Culturas produzidas",
+          "dependOn": null,
+          "description": "Culturas produzidas",
+          "controls": [
+            {
+              "id": 215,
+              "label": "Cultura Principal",
+              "dependOn": null,
+              "verifyOn": 48265057,
+              "type": "dropdown",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Culturas",
+              "value": null,
+              "options": [
+                {
+                  "id": 1,
+                  "name": "Repolho"
+                },
+                {
+                  "id": 2,
+                  "name": "Cebola"
+                },
+                {
+                  "id": 20,
+                  "name": "Arroz"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 216,
+              "label": "Outro",
+              "dependOn": "215/19",
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Cultura",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 621,
+              "label": "Área da  cultura",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": "Área agregada por cultura",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 693,
+              "label": "Foto da  Cultura Principal",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "labelField": 0,
+              "filterId": 0,
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 2,
+                "contentType": "image/*"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

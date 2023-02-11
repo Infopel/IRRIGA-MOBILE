@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chips render empty chips 1`] = `
+<View
+  dataSet={Object {}}
+  onSelectItems={[MockFunction]}
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+    }
+  }
+/>
+`;

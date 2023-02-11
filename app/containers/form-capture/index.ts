@@ -1,0 +1,1 @@
+export { FormCaptureContainer } from './form-capture.container'

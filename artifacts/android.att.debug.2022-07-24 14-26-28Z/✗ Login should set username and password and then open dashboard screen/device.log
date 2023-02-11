@@ -1,0 +1,212 @@
+--------- beginning of main
+07-24 16:27:39.222 24159 24190 I flipper : flipper: Desktop failed to provide certificates. Error from flipper desktop:
+07-24 16:27:39.222 24159 24190 I flipper : N7rsocket26StreamInterruptedExceptionE: connection closed
+--------- beginning of main
+07-24 16:27:48.155 24453 24494 D SoLoader: About to load: libreactnativejni.so
+07-24 16:27:48.156 24453 24494 D SoLoader: libreactnativejni.so not found on /data/data/com.irriga/lib-main
+07-24 16:27:48.157 24453 24494 D SoLoader: libreactnativejni.so found on /data/app/~~F0vsVWoWqMzSoLCfHk4A7A==/com.irriga-eCtJoKplLXCstYixu0p4dw==/lib/arm64
+07-24 16:27:48.157 24453 24494 D SoLoader: Not resolving dependencies for libreactnativejni.so
+07-24 16:27:48.163 24453 24494 D SoLoader: Loaded: libreactnativejni.so
+07-24 16:27:48.201 24453 24453 D InputTransport: Input channel constructed: '76836a1', fd=133
+07-24 16:27:48.203 24453 24453 I ViewRootImpl@b70efde[PopupWindow:5c85663]: setView = android.widget.PopupWindow$PopupDecorView@bdff5bf TM=false
+07-24 16:27:48.233 24453 24453 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xbf6048c / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+07-24 16:27:48.236 24453 24453 I ViewRootImpl@b70efde[PopupWindow:5c85663]: Relayout returned: old=(0,32,800,1276) new=(0,32,800,68) req=(799,36)0 dur=14 res=0x6 s={true -5476376641469505536} ch=true fn=-1
+07-24 16:27:48.271 24453 24453 I SurfaceControl: nativeRelease nativeObject s[-5476376638787472896]
+07-24 16:27:48.272 24453 24453 I SurfaceControl: nativeRelease nativeObject e[-5476376638787472896]
+07-24 16:27:48.273 24453 24453 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xbf6048c / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+07-24 16:27:48.275 24453 24453 I ViewRootImpl@b70efde[PopupWindow:5c85663]: Relayout returned: old=(0,32,800,68) new=(0,32,800,68) req=(799,36)0 dur=13 res=0x0 s={true -5476376641469505536} ch=false fn=2
+07-24 16:27:48.276 24453 24453 I ViewRootImpl@b70efde[PopupWindow:5c85663]: MSG_RESIZED_REPORT: frame=(0,32,800,68) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+07-24 16:27:48.291 24453 24453 I SurfaceControl: nativeRelease nativeObject s[-5476376638787465888]
+07-24 16:27:48.292 24453 24453 I SurfaceControl: nativeRelease nativeObject e[-5476376638787465888]
+07-24 16:27:48.293 24453 24453 I SurfaceControl: assignNativeObject: nativeObject = 0 Surface(name=null)/@0xbf6048c / android.view.SurfaceControl.readFromParcel:1117 android.view.IWindowSession$Stub$Proxy.relayout:1820 android.view.ViewRootImpl.relayoutWindow:9005 android.view.ViewRootImpl.performTraversals:3360 android.view.ViewRootImpl.doTraversal:2618 android.view.ViewRootImpl$TraversalRunnable.run:9971 android.view.Choreographer$CallbackRecord.run:1010 android.view.Choreographer.doCallbacks:809 android.view.Choreographer.doFrame:744 android.view.Choreographer$FrameDisplayEventReceiver.run:995 
+07-24 16:27:48.294 24453 24453 I ViewRootImpl@b70efde[PopupWindow:5c85663]: Relayout returned: old=(0,32,800,68) new=(0,32,800,68) req=(799,36)0 dur=12 res=0x0 s={true -5476376641469505536} ch=false fn=2
+07-24 16:27:49.084 24453 24523 D DetoxWSClient: Retrying...
+07-24 16:27:49.084 24453 24523 I DetoxWSClient: At connectToServer
+07-24 16:27:53.761 24453 24453 I ViewRootImpl@b70efde[PopupWindow:5c85663]: dispatchDetachedFromWindow
+07-24 16:27:53.762 24453 24453 I SurfaceControl: nativeRelease nativeObject s[-5476376638787472896]
+07-24 16:27:53.762 24453 24453 I SurfaceControl: nativeRelease nativeObject e[-5476376638787472896]
+07-24 16:27:53.771 24453 24453 D InputTransport: Input channel destroyed: '76836a1', fd=133
+07-24 16:27:54.156 24453 24549 D DetoxWSClient: Retrying...
+07-24 16:27:54.156 24453 24549 I DetoxWSClient: At connectToServer
+07-24 16:27:54.404 24453 24556 I RNFusedLocation: RNFusedLocation initialized
+07-24 16:27:54.415 24453 24564 V RNKeychainManager: warming up started at 570575857070073
+07-24 16:27:54.423 24453 24564 D RNKeychainManager: Probe cipher storage: CipherStorageFacebookConceal
+07-24 16:27:54.424 24453 24564 D RNKeychainManager: Probe cipher storage: CipherStorageKeystoreAesCbc
+07-24 16:27:54.438 24453 24556 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+07-24 16:27:54.447 24453 24453 W unknown:ReactNative: Packager connection already open, nooping.
+07-24 16:27:54.493 24453 24564 D RNKeychainManager: Probe cipher storage: CipherStorageKeystoreRsaEcb
+07-24 16:27:54.496 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+07-24 16:27:54.496 24453 24564 D RNKeychainManager: Selected storage: CipherStorageKeystoreAesCbc
+07-24 16:27:54.504 24453 24564 E KeyStore: generateKeyInternal failed on request -68
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: StrongBox security storage is not available.
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: android.security.keystore.StrongBoxUnavailableException: Failed to generate key
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: 	at android.security.keystore.AndroidKeyStoreKeyGeneratorSpi.engineGenerateKey(AndroidKeyStoreKeyGeneratorSpi.java:392)
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: 	at javax.crypto.KeyGenerator.generateKey(KeyGenerator.java:612)
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: 	at com.oblador.keychain.cipherStorage.CipherStorageKeystoreAesCbc.generateKey(CipherStorageKeystoreAesCbc.java:220)
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: 	at com.oblador.keychain.cipherStorage.CipherStorageBase.tryGenerateStrongBoxSecurityKey(CipherStorageBase.java:444)
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: 	at com.oblador.keychain.cipherStorage.CipherStorageBase.generateKeyAndStoreUnderAlias(CipherStorageBase.java:391)
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: 	at com.oblador.keychain.KeychainModule.internalWarmingBestCipher(KeychainModule.java:173)
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: 	at com.oblador.keychain.KeychainModule.lambda$DYujhqpjRgfFQ_gyuwMwyxxqDlk(Unknown Source:0)
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: 	at com.oblador.keychain.-$$Lambda$KeychainModule$DYujhqpjRgfFQ_gyuwMwyxxqDlk.run(Unknown Source:2)
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: 	at java.lang.Thread.run(Thread.java:923)
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: Caused by: android.security.KeyStoreException: No StrongBox available
+07-24 16:27:54.509 24453 24564 W CipherStorageBase: 	... 9 more
+07-24 16:27:54.513 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+07-24 16:27:54.524 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+07-24 16:27:54.537 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+07-24 16:27:54.544 24453 24564 V RNKeychainManager: warming up takes: 129 ms
+07-24 16:27:54.544 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+07-24 16:27:54.549 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+07-24 16:27:54.553 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+07-24 16:27:54.562 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+07-24 16:27:54.569 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+07-24 16:27:54.571 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+07-24 16:27:54.579 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+07-24 16:27:54.581 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+07-24 16:27:54.589 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+07-24 16:27:54.591 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+07-24 16:27:54.596 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+07-24 16:27:54.606 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+07-24 16:27:54.614 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+07-24 16:27:54.617 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+07-24 16:27:54.620 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+07-24 16:27:54.625 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+07-24 16:27:54.644 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+07-24 16:27:54.656 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+07-24 16:27:54.663 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+07-24 16:27:54.666 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+07-24 16:27:54.673 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+07-24 16:27:54.674 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+07-24 16:27:54.677 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+07-24 16:27:54.680 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class expo.modules.kotlin.views.SimpleViewManagerWrapper
+07-24 16:27:54.683 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+07-24 16:27:54.686 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+07-24 16:27:54.693 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapCalloutManager
+07-24 16:27:54.697 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapMarkerManager
+07-24 16:27:54.709 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapPolylineManager
+07-24 16:27:54.714 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapGradientPolylineManager
+07-24 16:27:54.721 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapPolygonManager
+07-24 16:27:54.726 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapCircleManager
+07-24 16:27:54.731 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapManager
+07-24 16:27:54.740 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapLiteManager
+07-24 16:27:54.741 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapUrlTileManager
+07-24 16:27:54.746 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapWMSTileManager
+07-24 16:27:54.751 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapLocalTileManager
+07-24 16:27:54.754 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapOverlayManager
+07-24 16:27:54.759 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.maps.AirMapHeatmapManager
+07-24 16:27:54.762 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativepagerview.PagerViewViewManager
+07-24 16:27:54.768 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+07-24 16:27:54.771 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+07-24 16:27:54.774 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+07-24 16:27:54.777 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+07-24 16:27:54.780 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+07-24 16:27:54.784 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+07-24 16:27:54.787 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+07-24 16:27:54.791 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+07-24 16:27:54.794 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$GroupViewManager
+07-24 16:27:54.804 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RenderableShadowNode
+07-24 16:27:54.807 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PathViewManager
+07-24 16:27:54.810 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$CircleViewManager
+07-24 16:27:54.813 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$EllipseViewManager
+07-24 16:27:54.816 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LineViewManager
+07-24 16:27:54.820 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RectViewManager
+07-24 16:27:54.823 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextViewManager
+07-24 16:27:54.827 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TSpanViewManager
+07-24 16:27:54.830 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextPathViewManager
+07-24 16:27:54.836 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ImageViewManager
+07-24 16:27:54.841 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ClipPathViewManager
+07-24 16:27:54.843 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$DefsViewManager
+07-24 16:27:54.845 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$UseViewManager
+07-24 16:27:54.852 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$SymbolManager
+07-24 16:27:54.857 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LinearGradientManager
+07-24 16:27:54.865 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RadialGradientManager
+07-24 16:27:54.870 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PatternManager
+07-24 16:27:54.874 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MaskManager
+07-24 16:27:54.878 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ForeignObjectManager
+07-24 16:27:54.882 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MarkerManager
+07-24 16:27:54.886 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.SvgViewManager
+07-24 16:27:54.895 24453 24566 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+07-24 16:27:54.897 24453 24566 D SoLoader: About to load: libyoga.so
+07-24 16:27:54.898 24453 24566 D SoLoader: libyoga.so not found on /data/data/com.irriga/lib-main
+07-24 16:27:54.899 24453 24566 D SoLoader: libyoga.so found on /data/app/~~F0vsVWoWqMzSoLCfHk4A7A==/com.irriga-eCtJoKplLXCstYixu0p4dw==/lib/arm64
+07-24 16:27:54.899 24453 24566 D SoLoader: Not resolving dependencies for libyoga.so
+07-24 16:27:54.900 24453 24566 D SoLoader: Loaded: libyoga.so
+07-24 16:27:54.914 24453 24453 I DetoxRNLoading: Got new RN-context async'ly through listener
+07-24 16:27:54.915 24453 24521 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+07-24 16:27:54.930 24453 24521 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=false)
+07-24 16:27:54.930 24453 24521 D AsyncStorageIR: IR for Async-Storage is required! (legacy=false)
+07-24 16:27:54.931 24453 24521 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=true)
+07-24 16:27:54.932 24453 24521 D AsyncStorageIR: IR for Async-Storage is required! (legacy=true)
+07-24 16:27:54.941 24453 24453 D AsyncStorageIR: Async-storage is busy!
+07-24 16:27:54.942 24453 24453 D AsyncStorageIRLegacy: Async-storage is busy!
+07-24 16:27:54.948 24453 24521 I DetoxDispatcher: Done with action '_init'
+07-24 16:27:54.959 24453 24566 I flipper : flipper: FlipperClient::addPlugin Fresco
+07-24 16:27:54.960 24453 24566 W com.irriga: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+07-24 16:27:54.960 24453 24566 W com.irriga: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+07-24 16:27:54.960 24453 24566 W com.irriga: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+07-24 16:27:56.086 24453 24565 D SoLoader: About to load: libreactnativeblob.so
+07-24 16:27:56.087 24453 24565 D SoLoader: libreactnativeblob.so not found on /data/data/com.irriga/lib-main
+07-24 16:27:56.087 24453 24565 D SoLoader: libreactnativeblob.so found on /data/app/~~F0vsVWoWqMzSoLCfHk4A7A==/com.irriga-eCtJoKplLXCstYixu0p4dw==/lib/arm64
+07-24 16:27:56.088 24453 24565 D SoLoader: Not resolving dependencies for libreactnativeblob.so
+07-24 16:27:56.090 24453 24565 D SoLoader: Loaded: libreactnativeblob.so
+07-24 16:27:56.148 24453 24566 I WebViewFactory: Loading com.google.android.webview version 103.0.5060.71 (code 506007133)
+07-24 16:27:56.203 24453 24566 W com.irriga: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (greylist, reflection, allowed)
+07-24 16:27:56.203 24453 24566 W com.irriga: Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (greylist, reflection, allowed)
+07-24 16:27:56.203 24453 24566 W com.irriga: Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (greylist, reflection, allowed)
+07-24 16:27:56.204 24453 24566 W com.irriga: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (greylist, reflection, allowed)
+07-24 16:27:56.204 24453 24566 W com.irriga: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (greylist, reflection, allowed)
+07-24 16:27:56.211 24453 24566 I cr_WVCFactoryProvider: Loaded version=103.0.5060.71 minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+07-24 16:27:56.255 24453 24566 I cr_LibraryLoader: Successfully loaded native library
+07-24 16:27:56.258 24453 24566 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms.
+07-24 16:27:58.263 24453 24489 I flipper : flipper: Desktop failed to provide certificates. Error from flipper desktop:
+07-24 16:27:58.263 24453 24489 I flipper : N7rsocket26StreamInterruptedExceptionE: connection closed
+07-24 16:27:59.220 24453 24559 D DetoxWSClient: Retrying...
+07-24 16:27:59.220 24453 24559 I DetoxWSClient: At connectToServer
+07-24 16:28:00.640 24453 24565 I ReactNativeJS: Running "Irriga" with {"rootTag":1}
+07-24 16:28:01.380 24453 24565 I ReactNativeJS: { isSigningIn: false, error: undefined }
+07-24 16:28:01.394 24453 24453 W unknown:WrappingUtils: Don't know how to round that drawable: com.facebook.react.views.image.ReactImageDownloadListener$EmptyDrawable@a33f36d
+07-24 16:28:01.841 24453 24566 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+07-24 16:28:02.162 24453 24453 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{2b26da9 V.E...... ......ID 0,0-800,1244 #1}
+07-24 16:28:02.210 24453 24599 D SoLoader: About to load: libimagepipeline.so
+07-24 16:28:02.211 24453 24599 D SoLoader: libimagepipeline.so not found on /data/data/com.irriga/lib-main
+07-24 16:28:02.211 24453 24599 D SoLoader: libimagepipeline.so found on /data/app/~~F0vsVWoWqMzSoLCfHk4A7A==/com.irriga-eCtJoKplLXCstYixu0p4dw==/lib/arm64
+07-24 16:28:02.211 24453 24599 D SoLoader: Not resolving dependencies for libimagepipeline.so
+07-24 16:28:02.214 24453 24599 D SoLoader: Loaded: libimagepipeline.so
+07-24 16:28:02.227 24453 24599 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+07-24 16:28:02.231 24453 24599 D SoLoader: About to load: libnative-imagetranscoder.so
+07-24 16:28:02.232 24453 24599 D SoLoader: libnative-imagetranscoder.so not found on /data/data/com.irriga/lib-main
+07-24 16:28:02.233 24453 24599 D SoLoader: libnative-imagetranscoder.so found on /data/app/~~F0vsVWoWqMzSoLCfHk4A7A==/com.irriga-eCtJoKplLXCstYixu0p4dw==/lib/arm64
+07-24 16:28:02.233 24453 24599 D SoLoader: Not resolving dependencies for libnative-imagetranscoder.so
+07-24 16:28:02.235 24453 24599 D SoLoader: Loaded: libnative-imagetranscoder.so
+07-24 16:28:02.245 24453 24601 D libjpeg-alpha-oal: SWIP_INIT
+07-24 16:28:02.245 24453 24601 D libjpeg-alpha-oal: MTXXXX_JPEG_SWIP_PROTECTION
+07-24 16:28:02.245 24453 24601 D libjpeg-alpha-oal: Address(orig)     = 0x7647cab258 0xedc
+07-24 16:28:02.245 24453 24601 D libjpeg-alpha-oal: Address(modified) = 0x7647caa37c
+07-24 16:28:02.245 24453 24601 D libjpeg-alpha-oal: Intermidiate 7647ca8088, 8ff3
+07-24 16:28:04.369 24453 24489 I flipper : flipper: Desktop failed to provide certificates. Error from flipper desktop:
+07-24 16:28:04.369 24453 24489 I flipper : N7rsocket26StreamInterruptedExceptionE: connection closed
+07-24 16:28:05.340 24453 24590 D DetoxWSClient: Retrying...
+07-24 16:28:05.341 24453 24590 I DetoxWSClient: At connectToServer
+07-24 16:28:16.633 24453 24489 I flipper : flipper: Desktop failed to provide certificates. Error from flipper desktop:
+07-24 16:28:16.633 24453 24489 I flipper : N7rsocket26StreamInterruptedExceptionE: connection closed
+07-24 16:28:17.579 24453 24607 D DetoxWSClient: Retrying...
+07-24 16:28:17.580 24453 24607 I DetoxWSClient: At connectToServer
+07-24 16:28:21.670 24453 24489 I flipper : flipper: Desktop failed to provide certificates. Error from flipper desktop:
+07-24 16:28:21.670 24453 24489 I flipper : N7rsocket26StreamInterruptedExceptionE: connection closed
+07-24 16:28:22.629 24453 24618 D DetoxWSClient: Retrying...
+07-24 16:28:22.629 24453 24618 I DetoxWSClient: At connectToServer
+07-24 16:28:22.745 24453 24467 I com.irriga: Background concurrent copying GC freed 24058(12MB) AllocSpace objects, 8(704KB) LOS objects, 43% free, 7867KB/13MB, paused 151us total 109.700ms
+07-24 16:28:26.730 24453 24489 I flipper : flipper: Desktop failed to provide certificates. Error from flipper desktop:
+07-24 16:28:26.730 24453 24489 I flipper : N7rsocket26StreamInterruptedExceptionE: connection closed
+07-24 16:28:27.699 24453 24624 D DetoxWSClient: Retrying...
+07-24 16:28:27.700 24453 24624 I DetoxWSClient: At connectToServer
+07-24 16:28:31.811 24453 24489 I flipper : flipper: Desktop failed to provide certificates. Error from flipper desktop:
+07-24 16:28:31.811 24453 24489 I flipper : N7rsocket26StreamInterruptedExceptionE: connection closed
+07-24 16:28:32.769 24453 24630 D DetoxWSClient: Retrying...
+07-24 16:28:32.769 24453 24630 I DetoxWSClient: At connectToServer
+07-24 16:28:36.872 24453 24489 I flipper : flipper: Desktop failed to provide certificates. Error from flipper desktop:
+07-24 16:28:36.872 24453 24489 I flipper : N7rsocket26StreamInterruptedExceptionE: connection closed
+07-24 16:28:37.842 24453 24636 D DetoxWSClient: Retrying...
+07-24 16:28:37.842 24453 24636 I DetoxWSClient: At connectToServer
+07-24 16:28:41.927 24453 24489 I flipper : flipper: Desktop failed to provide certificates. Error from flipper desktop:
+07-24 16:28:41.927 24453 24489 I flipper : N7rsocket26StreamInterruptedExceptionE: connection closed

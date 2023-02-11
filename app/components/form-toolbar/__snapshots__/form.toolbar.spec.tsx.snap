@@ -1,0 +1,931 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormToolbar> renders - snapshot 1`] = `
+<View
+  dataSet={Object {}}
+  style={Object {}}
+>
+  <View
+    dataSet={Object {}}
+    style={Object {}}
+  />
+  <View
+    dataSet={Object {}}
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "backgroundColor": "#35afe3",
+          "flexDirection": "row",
+        },
+        Object {
+          "padding": 16,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      colorScheme="primary"
+      dataSet={Object {}}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onHoverIn={[Function]}
+      onHoverOut={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderRadius": 4,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+        }
+      }
+    >
+      <Text />
+    </View>
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "width": 8,
+        }
+      }
+    />
+    <View
+      dataSet={Object {}}
+      style={Object {}}
+    >
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#FFFFFF",
+            "fontFamily": undefined,
+            "fontSize": 20,
+            "fontStyle": "normal",
+            "fontWeight": "700",
+            "letterSpacing": 0,
+            "lineHeight": 25,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        Simples titulo
+      </Text>
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "height": 8,
+          }
+        }
+      />
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": true,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<FormToolbar> should show disabled content 1`] = `
+<View
+  dataSet={Object {}}
+  style={Object {}}
+>
+  <View
+    dataSet={Object {}}
+    style={Object {}}
+  />
+  <View
+    dataSet={Object {}}
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-start",
+          "backgroundColor": "#35afe3",
+          "flexDirection": "row",
+        },
+        Object {
+          "padding": 16,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      colorScheme="primary"
+      dataSet={Object {}}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onHoverIn={[Function]}
+      onHoverOut={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderRadius": 4,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+        }
+      }
+    >
+      <Text />
+    </View>
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "width": 8,
+        }
+      }
+    />
+    <View
+      dataSet={Object {}}
+      style={Object {}}
+    >
+      <Text
+        dataSet={Object {}}
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#FFFFFF",
+            "fontFamily": undefined,
+            "fontSize": 20,
+            "fontStyle": "normal",
+            "fontWeight": "700",
+            "letterSpacing": 0,
+            "lineHeight": 25,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        Simples titulo
+      </Text>
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "height": 8,
+          }
+        }
+      />
+      <View
+        dataSet={Object {}}
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#fecdd3",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": true,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#fecdd3",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": true,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          accessibilityRole="button"
+          accessible={true}
+          collapsable={false}
+          dataSet={Object {}}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={Object {}}
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+                "selected": false,
+              }
+            }
+            dataSet={Object {}}
+            style={
+              Object {
+                "backgroundColor": "#b5e5fa",
+                "borderRadius": 9999,
+                "marginLeft": 4,
+                "marginRight": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

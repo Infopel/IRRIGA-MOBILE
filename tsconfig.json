@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "module": "CommonJS",
+    "jsx": "react-native",
+    "moduleResolution": "node",
+    "types": ["jest", "node", "@testing-library/jest-native"],
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "strict": true,
+    "target": "ES6",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["ES2020"],
+    "noImplicitThis": false,
+    "paths": {
+      "navigators": ["app/navigators"],
+      "navigators/*": ["app/navigators/*"],
+      "components": ["app/components"],
+      "components/*": ["app/components/*"],
+      "api": ["./app/services/api"],
+      "api/*": ["./app/services/api/*"],
+      "containers/*": ["app/containers/*"],
+      "storage/*": ["app/services/storage/*"],
+      "storage": ["app/services/storage"],
+      "models": ["app/models"],
+      "models/*": ["app/models/*"],
+      "containers": ["app/containers"],
+      "utils": ["app/utils"],
+      "utils/*": ["app/utils/*"],
+      "assets": ["assets"],
+      "assets/*": ["assets/*"],
+      "theme": ["app/theme"],
+      "test-utils": ["app/utils/test-utils"]
+    }
+  },
+  "exclude": ["node_modules", "babel.config.js", ".metro.config.js", "jest.config.ts"]
+}

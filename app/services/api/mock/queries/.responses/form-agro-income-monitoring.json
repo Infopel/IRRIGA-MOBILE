@@ -1,0 +1,291 @@
+{
+	"form": [
+		{
+			"id": "84b3be58-1c13-4ea0-acbf-d241039854b3",
+			"name": "Formulário Monitoria dos Rendimentos Agrícolas",
+			"fieldset": [
+				{
+					"id": 34,
+					"label": "Monitoria dos Rendimentos Agrícolas",
+					"description": "Monitoria dos Rendimentos Agrícolas",
+					"controls": [
+						{
+							"id": 72,
+							"label": "Cultura",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "form",
+							"labelField": 25,
+							"filterWithDropdown": null,
+							"placeholder": null,
+							"value": "af2fd34f-4974-4568-bcbf-d152dcb1952a",
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 73,
+							"label": "Data final de colheita",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "date",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Data final de colheita",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": "null"
+							}
+						},
+						{
+							"id": 74,
+							"label": "Area colhida",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Area Colhida",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": "number"
+							}
+						},
+						{
+							"id": 75,
+							"label": "Quantidade colhida",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Quantidade Colhida",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": "number"
+							}
+						},
+						{
+							"id": 76,
+							"label": "Rendimento por hectare",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Rendimento",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": "number"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "af2fd34f-4974-4568-bcbf-d152dcb1952a",
+			"name": "Cultura",
+			"fieldset": [
+				{
+					"id": 50,
+					"label": "Cultura",
+					"description": "Cultura",
+					"controls": [
+						{
+							"id": 25,
+							"label": "Culturas",
+							"dependOn": null,
+							"verifyOn": 25236907,
+							"type": "chip",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Culturas",
+							"value": null,
+							"options": [
+								{
+									"id": 1,
+									"name": "Repolho"
+								},
+								{
+									"id": 2,
+									"name": "Cebola"
+								},
+								{
+									"id": 3,
+									"name": "Tomate"
+								},
+								{
+									"id": 4,
+									"name": "Couve"
+								},
+								{
+									"id": 5,
+									"name": "Cenoura"
+								},
+								{
+									"id": 6,
+									"name": "Pepino"
+								},
+								{
+									"id": 7,
+									"name": "Pimento"
+								},
+								{
+									"id": 8,
+									"name": "Quiabo"
+								},
+								{
+									"id": 9,
+									"name": "Piripiri"
+								},
+								{
+									"id": 10,
+									"name": "Milho Bebe"
+								},
+								{
+									"id": 11,
+									"name": "Batata"
+								},
+								{
+									"id": 12,
+									"name": "Batata Reno"
+								},
+								{
+									"id": 13,
+									"name": "Maçaroca"
+								},
+								{
+									"id": 14,
+									"name": "Milho"
+								},
+								{
+									"id": 15,
+									"name": "Mapira"
+								},
+								{
+									"id": 16,
+									"name": "Meixoeira"
+								},
+								{
+									"id": 17,
+									"name": "Feijão Manteiga"
+								},
+								{
+									"id": 18,
+									"name": "Soja"
+								},
+								{
+									"id": 19,
+									"name": "Outra"
+								},
+								{
+									"id": 20,
+									"name": "Arroz"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 1,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 26,
+							"label": "Area Colhida (ha)",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Area",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": "number"
+							}
+						},
+						{
+							"id": 27,
+							"label": "Quantidade Comercializada (kgs)",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "0",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": "number"
+							}
+						},
+						{
+							"id": 162,
+							"label": "Preço por Kg (Mts)",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "0",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 1,
+								"max": 0,
+								"contentType": "money"
+							}
+						},
+						{
+							"id": 188,
+							"label": "Percentagem Comercializada",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"labelField": 0,
+							"filterWithDropdown": null,
+							"placeholder": "Rendimento",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 1,
+								"max": 0,
+								"contentType": null
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

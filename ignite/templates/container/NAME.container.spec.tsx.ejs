@@ -1,0 +1,14 @@
+import { fireEvent, render } from "@testing-library/react-native"
+import * as React from "react"
+import { <%= props.pascalCaseName %>Container } from "./<%= props.kebabCaseName %>.container"
+
+  test("<<%= props.pascalCaseName %>> exists", async function () {
+    const component = <<%= props.pascalCaseName %>Container></<%= props.pascalCaseName %>Container>
+
+    const { findByTestId } = render(component)
+
+    const container = await findByTestId("<%= props.camelCaseName %>Container")
+
+    expect(container).toBeTruthy()
+  })
+

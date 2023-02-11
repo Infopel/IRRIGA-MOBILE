@@ -1,0 +1,253 @@
+{
+  "form": [
+    {
+      "id": "9db8e1d2-5609-4466-9206-df4f39d3b727",
+      "name": "Formulário Fiscalização de Construção de Regadios",
+      "fieldset": [
+        {
+          "id": 18,
+          "label": "Monitoria física",
+          "description": "Monitoria física",
+          "controls": [
+            {
+              "id": 95,
+              "label": "Fase",
+              "dependOn": null,
+              "verifyOn": 24440245,
+              "type": "dropdown",
+              "filterWithDropdown": null,
+              "placeholder": "Selecionar a Fase",
+              "value": null,
+              "options": [
+                {
+                  "id": 26,
+                  "name": "f\r\nase de consignaçã"
+                },
+                {
+                  "id": 27,
+                  "name": "início da obra"
+                },
+                {
+                  "id": 28,
+                  "name": "monitoria do progresso da obra"
+                },
+                {
+                  "id": 29,
+                  "name": "entrega provisóri"
+                },
+                {
+                  "id": 177,
+                  "name": "entrega definitiva"
+                },
+                {
+                  "id": 178,
+                  "name": "garantia"
+                }
+              ],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 96,
+              "label": "Percentagem de execução física",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "dropdown",
+              "filterWithDropdown": null,
+              "placeholder": "Percentagem",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 100,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 97,
+              "label": "Descrição das actividades realizadas",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Descrição das actividades realizadas",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 100,
+                "contentType": "textarea"
+              }
+            },
+            {
+              "id": 98,
+              "label": "Constrangimentos",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Constragimentos",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 100,
+                "contentType": "textarea"
+              }
+            },
+            {
+              "id": 99,
+              "label": "Motivos de atraso",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "Motivos de atraso",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 100,
+                "contentType": "textarea"
+              }
+            },
+            {
+              "id": 100,
+              "label": "Fotos",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "capture",
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": true,
+                "min": 0,
+                "max": 10,
+                "contentType": "image/*"
+              }
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "label": "Monitoria orçamental",
+          "description": "Monitoria orçamental",
+          "controls": [
+            {
+              "id": 101,
+              "label": "Valor do Contrato de empreitada",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 102,
+              "label": "Valor de contrato de Fiscalização",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 103,
+              "label": "Valor das Adendas (caso exista)",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 104,
+              "label": "Valor das contingencias (caso exista)",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "text",
+              "filterWithDropdown": null,
+              "placeholder": "0",
+              "value": null,
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 1,
+                "max": 0,
+                "contentType": "number"
+              }
+            },
+            {
+              "id": 224,
+              "label": "Empreitada",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": "b5602e9b-08cc-4f8b-abcd-669fa4ef7a46",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            },
+            {
+              "id": 225,
+              "label": "Fiscalização",
+              "dependOn": null,
+              "verifyOn": 0,
+              "type": "form",
+              "filterWithDropdown": null,
+              "placeholder": null,
+              "value": "6c6db619-24be-4489-b888-b1cb30490562",
+              "options": [],
+              "validators": {
+                "required": false,
+                "min": 0,
+                "max": 0,
+                "contentType": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

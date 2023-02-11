@@ -1,0 +1,21 @@
+{
+  "user": [
+    {
+      "id": "d64c97cd-6e3c-4d18-8475-7a442cf309fe",
+      "username": "leliocossa",
+      "role": "teste",
+      "menus": [
+        {
+          "id": "abf1cb25-5ed6-47c2-9219-d414c373663b",
+          "name": "Formulário de Beneficiário"
+        }
+      ],
+      "regadios": [
+        {
+          "id": 1,
+          "name": "Teste"
+        }
+      ]
+    }
+  ]
+}

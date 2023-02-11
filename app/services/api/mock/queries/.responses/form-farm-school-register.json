@@ -1,0 +1,445 @@
+{
+	"form": [
+		{
+			"id": "0fda242a-9c5d-4c07-bb82-0cbfda810646",
+			"name": "Cadastro de Escolas da Machamba do camponês ",
+			"fieldset": [
+				{
+					"id": 14,
+					"label": "Dados da Escola",
+					"description": "Dados da Escola",
+					"controls": [
+						{
+							"id": 77,
+							"label": "Nome do escola",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"filterWithDropdown": null,
+							"placeholder": "Nome da Escola",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 78,
+							"label": "Local de montagem da Escola",
+							"dependOn": null,
+							"verifyOn": 48640797,
+							"type": "dropdown",
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar o Local",
+							"value": null,
+							"options": [
+								{
+									"id": 112,
+									"name": "campo do produto"
+								},
+								{
+									"id": 169,
+									"name": "área do regadio alocad"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 79,
+							"label": "Metodologia em uso na escola",
+							"dependOn": null,
+							"verifyOn": 47590479,
+							"type": "dropdown",
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar a Metodologia",
+							"value": null,
+							"options": [
+								{
+									"id": 170,
+									"name": "escola da machamba do camponê"
+								},
+								{
+									"id": 171,
+									"name": "PITTA"
+								},
+								{
+									"id": 172,
+									"name": "CDR"
+								},
+								{
+									"id": 173,
+									"name": "Vitrine tecnológica"
+								},
+								{
+									"id": 174,
+									"name": "Outra"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 80,
+							"label": "Técnico que assiste a escola",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "dropdown",
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar a Tecnico",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 81,
+							"label": "Área da Escola",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"filterWithDropdown": null,
+							"placeholder": "Área",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 1,
+								"max": 0,
+								"contentType": "number"
+							}
+						},
+						{
+							"id": 82,
+							"label": "Culturas produzidas",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "form",
+							"filterWithDropdown": null,
+							"placeholder": null,
+							"value": "431a70ee-4241-49a3-9059-e528ddbd186b",
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 83,
+							"label": "Beneficiários Homens",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"filterWithDropdown": null,
+							"placeholder": "Homens",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 1,
+								"max": 0,
+								"contentType": "number"
+							}
+						},
+						{
+							"id": 84,
+							"label": "Beneficiários Mulheres",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"filterWithDropdown": null,
+							"placeholder": "Mulheres",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 1,
+								"max": 0,
+								"contentType": "number"
+							}
+						},
+						{
+							"id": 221,
+							"label": "Outra",
+							"dependOn": "79/174",
+							"verifyOn": 0,
+							"type": "text",
+							"filterWithDropdown": null,
+							"placeholder": "Metodologia",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						}
+					]
+				},
+				{
+					"id": 15,
+					"label": "Localização",
+					"description": "Localização",
+					"controls": [
+						{
+							"id": 85,
+							"label": "Provincia",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "dropdown",
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar a Provincia",
+							"value": null,
+							"options": [
+								{
+									"id": 1,
+									"name": "Niassa"
+								},
+								{
+									"id": 2,
+									"name": "Cabo-Delgado"
+								},
+								{
+									"id": 3,
+									"name": "Nampula"
+								},
+								{
+									"id": 4,
+									"name": "Zambézia"
+								},
+								{
+									"id": 5,
+									"name": "Tete"
+								},
+								{
+									"id": 6,
+									"name": "Manica"
+								},
+								{
+									"id": 7,
+									"name": "Sofala"
+								},
+								{
+									"id": 8,
+									"name": "Inhambane"
+								},
+								{
+									"id": 9,
+									"name": "Gaza"
+								},
+								{
+									"id": 10,
+									"name": "Maputo-Provincia"
+								},
+								{
+									"id": 11,
+									"name": "Maputo-Cidade"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 86,
+							"label": "Distrito",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "dropdown",
+							"filterWithDropdown": "85",
+							"placeholder": "Selecionar Distrito",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 87,
+							"label": "Posto administrativo",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"filterWithDropdown": null,
+							"placeholder": "Posto Administrativo",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 88,
+							"label": "Localidade",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "text",
+							"filterWithDropdown": null,
+							"placeholder": "Localidade",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 89,
+							"label": "Regadio",
+							"dependOn": null,
+							"verifyOn": 40721443,
+							"type": "chip",
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar Regadio",
+							"value": null,
+							"options": [
+								{
+									"id": 4,
+									"name": "Regadio de Namanhacha"
+								},
+								{
+									"id": 3,
+									"name": "Bruno e Filhos"
+								},
+								{
+									"id": 2,
+									"name": "Khensa"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 90,
+							"label": "Associação",
+							"dependOn": null,
+							"verifyOn": 33404365,
+							"type": "chip",
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar Associação",
+							"value": null,
+							"options": [
+								{
+									"id": 1,
+									"name": "Associação de Namanhacha"
+								},
+								{
+									"id": 2,
+									"name": "Associação de Moamba"
+								},
+								{
+									"id": 3,
+									"name": "Associação Khensa"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 91,
+							"label": "Presidente da escola",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "dropdown",
+							"filterWithDropdown": null,
+							"placeholder": "Selecionar o Presidente da Escola",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						}
+					]
+				},
+				{
+					"id": 16,
+					"label": "Geo-Localização",
+					"description": "Geo-Localização",
+					"controls": [
+						{
+							"id": 92,
+							"label": "Campo de colecta de coordenadas GPS",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "location",
+							"filterWithDropdown": null,
+							"placeholder": "Coordenadas geográficas",
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						}
+					]
+				},
+				{
+					"id": 17,
+					"label": "Carregamento de fotos",
+					"description": "Carregamento de fotos",
+					"controls": [
+						{
+							"id": 93,
+							"label": "Fotos",
+							"dependOn": null,
+							"verifyOn": 0,
+							"type": "capture",
+							"filterWithDropdown": null,
+							"placeholder": null,
+							"value": null,
+							"options": [],
+							"validators": {
+								"required": false,
+								"min": 0,
+								"max": 2,
+								"contentType": "image/*"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

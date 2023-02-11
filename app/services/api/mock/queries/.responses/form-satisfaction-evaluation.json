@@ -1,0 +1,377 @@
+{
+	"form": [
+		{
+			"id": "a2c36e37-39af-453b-8b91-123d23fb780c",
+			"name": "Formulário de avaliação de satisfação",
+			"fieldset": [
+				{
+					"id": 35,
+					"label": "Avaliação de Satisfação",
+					"description": "Avaliação de Satisfação",
+					"controls": [
+						{
+							"id": 43,
+							"label": "Serviço - Selecção de  Beneficiários das Actividades:",
+							"dependOn": null,
+							"verifyOn": 20888343,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 46,
+									"name": "Satisfeito (a)"
+								},
+								{
+									"id": 47,
+									"name": "Não Satisfeito (a)"
+								},
+								{
+									"id": 48,
+									"name": "Não Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 44,
+							"label": "Serviço – Treinamento sobre irrigação",
+							"dependOn": null,
+							"verifyOn": 3587644,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 49,
+									"name": "Satisfeito (a)"
+								},
+								{
+									"id": 50,
+									"name": "Não Satisfeito (a)"
+								},
+								{
+									"id": 51,
+									"name": "Não Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 45,
+							"label": "Serviço – Treinamento de práticas melhorada",
+							"dependOn": null,
+							"verifyOn": 11620212,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 52,
+									"name": "Satisfeito (a)"
+								},
+								{
+									"id": 53,
+									"name": "Não Satisfeito (a)"
+								},
+								{
+									"id": 54,
+									"name": "Não Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 46,
+							"label": "Serviço – Treinamento em escolas sem paredes",
+							"dependOn": null,
+							"verifyOn": 12705380,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 55,
+									"name": "Satisfeito (a)"
+								},
+								{
+									"id": 56,
+									"name": "Não Satisfeito (a)"
+								},
+								{
+									"id": 57,
+									"name": "Não Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 47,
+							"label": "Serviço – Processo de gestão de donativos comparticipados",
+							"dependOn": null,
+							"verifyOn": 38178799,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 58,
+									"name": "Satisfeito (a)\r"
+								},
+								{
+									"id": 59,
+									"name": "\nNão Satisfeito (a)\r\n"
+								},
+								{
+									"id": 60,
+									"name": "Não Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 48,
+							"label": "Serviço – Formação em nutrição",
+							"dependOn": null,
+							"verifyOn": 60523065,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 61,
+									"name": "Satisfeito (a)\r\n"
+								},
+								{
+									"id": 62,
+									"name": "Não Satisfeito (a)"
+								},
+								{
+									"id": 63,
+									"name": "\r\nNão Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 49,
+							"label": "Serviço – Formação em planos de negócios",
+							"dependOn": null,
+							"verifyOn": 32854182,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 64,
+									"name": "Satisfeito (a)"
+								},
+								{
+									"id": 65,
+									"name": "\r\n\r\nNão Satisfeito (a)\r\n\r\n"
+								},
+								{
+									"id": 66,
+									"name": "Não Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 50,
+							"label": "Serviço – Ligação de mercados",
+							"dependOn": null,
+							"verifyOn": 21419994,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 67,
+									"name": "Satisfeito (a)\r\n"
+								},
+								{
+									"id": 68,
+									"name": "Não Satisfeito (a)\r\n"
+								},
+								{
+									"id": 69,
+									"name": "Não Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 51,
+							"label": "Serviço – Treinamento em gestão de assuntos sociais",
+							"dependOn": null,
+							"verifyOn": 47593914,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 70,
+									"name": "Satisfeito (a)\r\n"
+								},
+								{
+									"id": 71,
+									"name": "Não Satisfeito (a)\r\n"
+								},
+								{
+									"id": 72,
+									"name": "Não Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 52,
+							"label": "Serviço – Treinamento em gestão de assuntos de salvaguardas",
+							"dependOn": null,
+							"verifyOn": 15016297,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 73,
+									"name": "Satisfeito (a)\r\n"
+								},
+								{
+									"id": 74,
+									"name": "Não Satisfeito (a)\r\n"
+								},
+								{
+									"id": 75,
+									"name": "Não Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 53,
+							"label": "Serviço – Fluxo de informação e comunicação",
+							"dependOn": null,
+							"verifyOn": 51398475,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 76,
+									"name": "Satisfeito (a)\r\n"
+								},
+								{
+									"id": 77,
+									"name": "Não Satisfeito (a)\r\n"
+								},
+								{
+									"id": 78,
+									"name": "Não Aplicávell"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						},
+						{
+							"id": 54,
+							"label": "Serviço – Avaliação global",
+							"dependOn": null,
+							"verifyOn": 4863237,
+							"type": "radio",
+							"filterWithDropdown": null,
+							"placeholder": "",
+							"value": null,
+							"options": [
+								{
+									"id": 79,
+									"name": "Satisfeito (a)\r\n"
+								},
+								{
+									"id": 80,
+									"name": "Não Satisfeito (a)\r\n"
+								},
+								{
+									"id": 81,
+									"name": "Não Aplicável"
+								}
+							],
+							"validators": {
+								"required": true,
+								"min": 0,
+								"max": 0,
+								"contentType": null
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

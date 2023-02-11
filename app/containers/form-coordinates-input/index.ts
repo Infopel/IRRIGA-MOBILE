@@ -1,0 +1,1 @@
+export { FormCoordinatesInputContainer } from './form-coordinates-input.container'
